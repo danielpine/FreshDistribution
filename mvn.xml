@@ -1,0 +1,23 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>G:\XHYT\JEECG-3.7.3-repository\JEECG-repository</localRepository>
+	<interactiveMode>true</interactiveMode>
+	<usePluginRegistry />
+	<offline />
+	<pluginGroups />
+	<servers />
+	<mirrors>
+		<mirror>
+			<id>nexus-aliyun</id>
+			<mirrorOf>*,!jeecg,!jeecg-snapshots</mirrorOf>
+			<name>Nexus aliyun</name>
+			<!-- <url>http://maven.aliyun.com/nexus/content/groups/public</url> -->
+			<url>https://maven.aliyun.com/repository/central</url>
+		</mirror>
+	</mirrors>
+	<proxies />
+	<profiles />
+	<activeProfiles />
+</settings>
