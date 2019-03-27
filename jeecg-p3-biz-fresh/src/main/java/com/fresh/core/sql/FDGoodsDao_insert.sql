@@ -2,12 +2,12 @@ INSERT  INTO
 	f_d_goods
       ( 
       ID                            
-      ,name                           
+      ,gname                          
       ,gtype                          
       ) 
 values
       (
       :fDGoods.id                            
-      ,:fDGoods.name                          
+      ,:fDGoods.gname                         
       ,:fDGoods.gtype                         
       )
