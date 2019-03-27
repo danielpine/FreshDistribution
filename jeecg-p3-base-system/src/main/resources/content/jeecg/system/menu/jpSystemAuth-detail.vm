@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+#parse("content/base/back/common/head.vm")
+<body style='overflow:scroll;overflow-x:hidden'>
+	<div class="container bs-docs-container" style="width:100%;">
+		<div class="row">
+			<div class="panel panel-default">
+				<div class="panel-heading">详情</div>
+				<div class="panel-body">
+					<form class="form-horizontal" role="form">
+						<fieldset disabled>
+																		<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">权限名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.authName}" name="authName" id="authName" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">权限类型 0:菜单;1:功能</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.authType}" name="authType" id="authType" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">权限说明</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.authDesc}" name="authDesc" id="authDesc" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">权限控制请求</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.authUrl}" name="authUrl" id="authUrl" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">上一级权限编码</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.parentId}" name="parentId" id="parentId" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">排序</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.sortNo}" name="sortNo" id="sortNo" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">删除标志 0未删除 1已删除</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.delFlag}" name="delFlag" id="delFlag" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">图标类型</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.iconType}" name="iconType" id="iconType" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">创建人登录名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.createBy}" name="createBy" id="createBy" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">创建日期</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!dateTool.format("yyyy-MM-dd",$!{jpSystemAuth.createDate})" name="createDate" id="createDate" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">更新人登录名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemAuth.updateBy}" name="updateBy" id="updateBy" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">更新日期</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!dateTool.format("yyyy-MM-dd",$!{jpSystemAuth.updateDate})" name="updateDate" id="updateDate" class="form-control" />
+												</div>
+											</div>
+						</fieldset>
+						<div class="form-group mno">
+							<div class="col-sm-offset-1 col-sm-6">
+								<button type="button" class="btn btn-default" id="formReturn" data-dismiss="modal" onclick="doUrl('$!{basePath}/system/jpSystemAuth.do?list')"><i class="fa fa-arrow-circle-left"></i> 返回</button>
+							 </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

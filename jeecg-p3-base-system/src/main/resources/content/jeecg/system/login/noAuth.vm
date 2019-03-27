@@ -1,0 +1,10 @@
+<html>
+<head>
+</head>
+<body>
+<SCRIPT type="text/javascript">
+	alert('用户权限不足，请联系管理员');
+ </SCRIPT>
+ 用户权限不足，请联系管理员
+</body>
+</html>

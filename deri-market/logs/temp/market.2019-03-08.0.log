@@ -1,0 +1,12 @@
+[1;32m2019-03-08 13:26:46.950[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFEAU at:20190307 
+[1;32m2019-03-08 13:26:47.161[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20190307 
+[1;32m2019-03-08 13:26:47.240[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFEAG at:20190307 
+[1;32m2019-03-08 13:26:47.320[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20190307 
+[1;32m2019-03-08 13:26:47.350[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFECU at:20190307 
+[1;32m2019-03-08 13:26:47.450[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20190307 
+[1;32m2019-03-08 13:27:11.979[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFEAU at:20181228 
+[1;32m2019-03-08 13:27:12.177[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20181228 
+[1;32m2019-03-08 13:27:12.235[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFEAG at:20181228 
+[1;32m2019-03-08 13:27:12.379[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20181228 
+[1;32m2019-03-08 13:27:12.430[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find SHFECU at:20181228 
+[1;32m2019-03-08 13:27:12.563[0;39m [34mINFO [0;39m [36mc.f.m.s.impl.PriceDataServiceImpl  [0;39m - find vol at:20181228 

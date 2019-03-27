@@ -1,0 +1,171 @@
+#parse("content/base/back/common/macro.vm")
+<!DOCTYPE html>
+<html lang="en">
+#parse("content/base/back/common/head.vm")
+<link rel="stylesheet" href="$!{basePath}/content/jeecg/plugin/layui/css/layui.css">
+<script src="$!{basePath}/content/jeecg/plugin/layui/layui.js"></script>
+<body style='overflow:scroll;overflow-x:hidden'>
+	<div class="container bs-docs-container" style="width:100%;">
+		<div class="row">
+			<form role="form" class="form-inline" action="$!{basePath}/system/jpSystemUser.do?list" method="post"  id="formSubmit">
+				<div  class="col-md-10" style="width:100%">
+					<div class="panel panel-default">
+						<div class="panel-heading">列表</div>
+						<div class="panel-body">
+							<div class="search">
+										 <div class="form-group col-sm-3">
+											<label for="userCode" class="control-label col-sm-3 line34">用户编码</label>
+											<div class="col-sm-8">
+												<input type="text" name="userCode" id="userCode" value="$!{jpSystemUser.userCode}" class="form-control">
+											</div>
+										 </div>
+										 <div class="form-group col-sm-3">
+											<label for="userName" class="control-label col-sm-3 line34">用户名称</label>
+											<div class="col-sm-8">
+												<input type="text" name="userName" id="userName" value="$!{jpSystemUser.userName}" class="form-control">
+											</div>
+										 </div>
+										
+										 <!--div class="form-group col-sm-3">
+											<label for="userType" class="control-label col-sm-3 line34">用户种类</label>
+											<div class="col-sm-8">
+												<input type="text" name="userType" id="userType" value="$!{jpSystemUser.userType}" class="form-control">
+											</div>
+										 </div-->
+										 <div class="form-group col-sm-3">
+											<label for="userStatus" class="control-label col-sm-3 line34">用户状态</label>
+											<div class="col-sm-8">
+												<select name="userStatus" id="userStatus" class="form-control">
+													<option value="">
+														--请选择用户状态--
+                                                    </option>
+													<option value="NORMAL" #if("$!{jpSystemUser.userStatus}" == "NORMAL") selected="selected" #end>
+														正常
+                                                    </option>
+													
+													<option value="INVALID" #if("$!{jpSystemUser.userStatus}" == "INVALID") selected = "selected" #end>
+														无效
+                                                    </option>
+                                                </select>
+											</div>
+										 </div>
+								<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> 搜  索</button>
+								<div class="clearfix"></div>
+							</div>
+							<div id="legend">
+								<legend  class="le"><button type="button" class="btn btn-primary" onclick="doUrl('$!{basePath}/system/jpSystemUser.do?toAdd')" ><i class="fa fa-plus"></i> 新增</button></legend> 
+							</div>
+							<table class="table table-striped">
+								<thead>
+									<th>
+											<input type="checkbox" name="ckAll" id="ckAll" />
+					        		</th>
+											<th>用户编码</th>
+											<th>用户名称</th>
+											##<th>密码</th>
+											##<th>用户种类</th>
+											<th>用户状态</th>
+										 	##NORMAL:正常；INVALID：无效
+											<!--th>上次登录日期</th>
+											<th>上次登录IP</th>
+											<th>删除标志</th-->
+									<th>操作</th>
+								</thead>
+								<tbody>
+								#if($!{pageInfos})
+									#foreach($!{info} in $!{pageInfos})
+										<tr>	
+											<td>
+													<input type="checkbox" name="ck" id="ck_$!{velocityCount}" value="$!{info.id}"/>
+											</td>	
+														<td>$!{info.userCode}</td>
+														<td>$!{info.userName}</td>
+														##<td>$!{info.password}</td>
+														##<td>$!{info.userType}</td>
+														<td>
+															#if("$!{info.userStatus}"=='NORMAL')  
+															<front color="green">正常</front>
+															#else
+															<front color="red">无效</front>
+															#end
+														</td>
+														<!--td>$!dateTool.format("yyyy-MM-dd",$!{info.lastLognTime})</td>
+														<td>$!{info.lastLognIp}</td>
+														<td>$!{info.delFlag}</td-->
+											<td class="last">
+											<a class="btn btn-success btn-xs"  href="javascript:doUrl('$!{basePath}/system/jpSystemUser.do?toEdit&id=$!{info.id}')" ><i class="fa fa-user"></i> 编辑</a>
+											
+											<a class="btn btn-warning btn-xs"  href="javascript:doUrl('$!{basePath}/system/jpSystemUser.do?toResetPassword&id=$!{info.id}')" ><i class="fa fa-edit"></i> 修改密码</a>
+											#if($!{info.userStatus})
+												#if("$!{info.userStatus}" == "NORMAL")
+													<a class="btn btn-danger btn-xs" href="javascript:doLock('确定停用该用户吗？','$!{basePath}/system/jpSystemUser.do?lock&lockValue=INVALID&userid=$!{info.id}')" ><i class="fa fa-lock fa-fw"></i> 锁定</a>
+												#elseif("$!{info.userStatus}" == "INVALID")
+													<a class="btn btn-success btn-xs" href="javascript:doLock('确定启用该用户吗？','$!{basePath}/system/jpSystemUser.do?lock&lockValue=NORMAL&userid=$!{info.id}')" ><i class="fa fa-key fa-fw"></i> 激活</a>
+												#end
+											#end
+											<!--a class="btn btn-info btn-xs" href="javascript:doUrl('$!{basePath}/system/jpSystemUser.do?toDetail&id=$!{info.id}')" ><i class="fa fa-file-text-o"></i> 详情</a-->
+											<a class="btn btn-danger btn-xs" href="javascript:delData('$!{basePath}/system/jpSystemUser.do?doDelete&id=$!{info.id}')"><i class="fa fa-trash-o"></i> 删除</a>
+											</td>
+										</tr>
+									 #end
+								 #end
+								</tbody>
+							</table>
+							<div class="text-right">
+								<!--公用翻页代码-->
+								#set($attr='formSubmit')
+								#showPageList($pageInfos $attr)
+								<!--END公用翻页代码-->
+							</div>
+						</div>
+					</div>
+				</div>  
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="$!{basePath}/content/jeecg/plugin/jquery/jquery.own.js"></script>
+<script>
+function doLock(content,url){
+ 	layui.use(['layer'], function(){
+      var layer = layui.layer;
+      //update-begin-author:taoYan date:20170814 for:阻塞式弹框--
+      layer.confirm(content,{title:'提示信息'},function(index){
+	   	 layer.close(index);
+  		 jQuery.ajax({
+    		url:url,
+    		async : false,  
+            cache:false,  
+            type: 'POST',  
+            dataType : "json", 
+    		success:function(data){
+    			if(data.success){
+            		commonTip(data.msg,0,function(){location.reload();});
+            	}else{
+            		commonTip(data.msg,0);
+            	}
+            //update-end-author:taoYan date:20170814 for:阻塞式弹框--
+    		}
+    	});
+	  });
+    });
+}
+$("#ckAll").click(function(){ 
+	if($(this).prop("checked")){ 
+	 $(":checkbox").prop("checked",true) 
+	}else{ 
+	$(":checkbox").prop("checked",false)  
+	} 
+}); 
+
+//jquery获取复选框值    
+function getCkValue(){  
+  var chk_value =[];    
+  $('input[name="ck"]:checked').each(function(){    
+   chk_value.push($(this).val());    
+  });    
+  //alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value);    
+}    
+
+</script>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+#parse("content/base/back/common/head.vm")
+<body style='overflow:scroll;overflow-x:hidden'>
+	<div class="container bs-docs-container" style="width:100%;">
+		<div class="row">
+			<div class="panel panel-default">
+				<div class="panel-heading">详情</div>
+				<div class="panel-body">
+					<form class="form-horizontal" role="form">
+						<fieldset disabled>
+																		<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">用户编码</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.userCode}" name="userCode" id="userCode" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">用户名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.userName}" name="userName" id="userName" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">密码</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.password}" name="password" id="password" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">用户种类</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.userType}" name="userType" id="userType" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">用户状态 NORMAL:正常；INVALID：无效</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.userStatus}" name="userStatus" id="userStatus" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">上次登录日期</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!dateTool.format("yyyy-MM-dd",$!{jpSystemUser.lastLognTime})" name="lastLognTime" id="lastLognTime" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">上次登录IP</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.lastLognIp}" name="lastLognIp" id="lastLognIp" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">删除标志</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.delFlag}" name="delFlag" id="delFlag" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">创建人登录名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.createBy}" name="createBy" id="createBy" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">创建日期</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!dateTool.format("yyyy-MM-dd",$!{jpSystemUser.createDate})" name="createDate" id="createDate" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">更新人登录名称</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!{jpSystemUser.updateBy}" name="updateBy" id="updateBy" class="form-control" />
+												</div>
+											</div>
+											<div class="form-group mno">
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">更新日期</label>
+												<div class="col-sm-2">
+													<input type="text" value="$!dateTool.format("yyyy-MM-dd",$!{jpSystemUser.updateDate})" name="updateDate" id="updateDate" class="form-control" />
+												</div>
+											</div>
+						</fieldset>
+						<div class="form-group mno">
+							<div class="col-sm-offset-1 col-sm-6">
+								<button type="button" class="btn btn-default" id="formReturn" data-dismiss="modal" onclick="doUrl('$!{basePath}/system/jpSystemUser.do?list')"><i class="fa fa-arrow-circle-left"></i> 返回</button>
+							 </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

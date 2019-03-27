@@ -1,0 +1,90 @@
+{
+	"service": "market_service",
+	"version": "1.0.0",
+	"proxy": {
+		"api/market/": "http://localhost:8082/"
+	},
+	"server": "https://api.finanstar.cn/market",
+	"apis": [
+		{
+			"num": 1,
+			"name": "getMarketConvFxByName",
+			"url": "http://localhost:8082/fx/conv?market=usdcny",
+			"type": "GET",
+			"request": "apiCode=XXX,apiType=token,market=usdcny,",
+			"response": "Result.data=MarketConvFx",
+			"maker": "danielpine",
+			"makeDate": "20180819",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		},
+		{
+			"num": 2,
+			"name": "getMarketConvFxAllMarketName",
+			"url": "http://localhost:8082/fx/markets",
+			"type": "GET",
+			"request": "apiCode=XXX,apiType=token,",
+			"response": "Result.data=JSONArray",
+			"maker": "danielpine",
+			"makeDate": "20180819",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		},
+		{
+			"num": 3,
+			"name": "getFxPageData",
+			"url": "http://localhost:8082/fx/page?market=usdcny",
+			"type": "GET",
+			"request": "market=usdcny,apiCode=XXX,apiType=token,",
+			"response": "Result.data={setIndex=,conv=}",
+			"maker": "danielpine",
+			"makeDate": "20180820",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		},
+		{
+			"num": 4,
+			"name": "getFxPriceData",
+			"url": "http://localhost:8082/fx/priceData?market=usdcny&date=20180808",
+			"type": "GET",
+			"request": "market=usdcny,date=20180808,apiCode=XXX,apiType=token,",
+			"response": "Result.data={c1,c2,vol,voldef}",
+			"maker": "danielpine",
+			"makeDate": "20180820",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		},
+		{
+			"num": 5,
+			"name": "spiderVol",
+			"local-url": "http://localhost:8082/spider/vol/fx/all",
+			"server-url": "https://api.finanstar.cn/market/spider/vol/fx/all",
+			"type": "GET",
+			"request": "spider/vol/{type}/{market}",
+			"response": "Result.data={json}",
+			"maker": "danielpine",
+			"makeDate": "20180823",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		},
+		{
+			"num": 6,
+			"name": "spiderIndex",
+			"local-url": "http://localhost:8082/spider/index/swap/all",
+			"server-url": "https://api.finanstar.cn/market/spider/index/swap/all",
+			"type": "GET",
+			"request": "spider/index/{type}/{market} || type:fx,cash,swap || all",
+			"response": "Result.data={json}",
+			"maker": "danielpine",
+			"makeDate": "20180823",
+			"moder": "",
+			"modDate": "",
+			"explain": ""
+		}
+	]
+}

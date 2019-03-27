@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.redis.jedis.pool.max-active",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.redis.jedis.pool.max-active'"
+  },
+  {
+    "name": "spring.devtools.restart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.devtools.restart.enabled'"
+  }
+]}

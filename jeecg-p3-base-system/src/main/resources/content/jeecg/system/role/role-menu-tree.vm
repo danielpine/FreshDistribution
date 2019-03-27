@@ -1,0 +1,123 @@
+<!--link type="text/css" rel="stylesheet" href="$!{basePath}/content/system/css/zTreeStyle/zTreeStyle_Auth.css"/-->
+<link href="$!{basePath}/content/jeecg/plugin/ztree/zTreeStyle_Auth.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="$!{basePath}/content/jeecg/plugin/ztree/jquery.ztree.core-3.5.min.js"></script>
+<script type="text/javascript" src="$!{basePath}/content/jeecg/plugin/ztree/jquery.ztree.excheck-3.5.min.js"></script>
+<script type="text/javascript" src="$!{basePath}/content/jeecg/plugin/jquery/jquery.own.js"></script>
+<script type="text/javascript" src="$!{basePath}/content/jeecg/plugin/ztree/jquery.ztree.exedit-3.5.min.js"></script>
+<input id="selectRoleId" type="hidden" name="selectRoleId" value="$!{role.id}"/>
+<ul id="role_menu_tree" class="ztree"></ul>
+	
+<script type="text/javascript">
+
+	var zTree = jQuery.fn.zTree.getZTreeObj("role_menu_tree");
+	var setting = {
+        check: {
+            enable: true
+        },
+        data: {
+            simpleData: {
+                enable: true
+            }
+        }
+    };
+	
+    var setting2 = {
+        data: {
+            simpleData: {
+                enable: true
+            }
+        }
+    };
+    //初始化权限
+	function showAuth(url,roleId) {
+        if(roleId!=null && roleId!=""){
+        	 url=url+"?roleId="+roleId;
+        	if(url.indexOf('?')>-1){
+         		url += '&t=' + Math.random(1000);  
+         	}else{
+         		url += '?t=' + Math.random(1000);  
+         	}
+            jQuery.ajax({
+                type: "POST",
+                cache: false,
+                url:url ,
+                success: function(zNodes){
+                	jQuery.fn.zTree.init($("#role_menu_tree"), setting, eval(zNodes));
+                	//Disabled1();
+                }
+            });
+        } else {
+            alert("请选择一个角色!");
+        }
+    }
+	
+	//保存权限设置
+    function saveAuth(url) {
+    	var roleId = $("#selectRoleId").val();
+        var zTree = jQuery.fn.zTree.getZTreeObj("role_menu_tree");
+        var checkCount = zTree.getCheckedNodes(true);
+        var checkedNodes = [];
+    	for(var i=0;i<checkCount.length;i++){
+    		checkedNodes.push(checkCount[i].id);
+    	}
+		console.log(checkedNodes);
+        jQuery.ajax({
+        	url:url ,
+            data : {
+            	checkedNodes : checkedNodes.join(','),
+            	roleId:roleId
+			},
+			dataType: "json",
+            success: function(data){
+			 //update-begin-author:taoYan date:20170814 for:阻塞式弹框--
+            	if(data.success){
+            		commonTip(data.msg,0,function(){$('#dialogFormClose').click()});
+            	}else{
+            		commonTip(data.msg,0);
+            	}
+            //update-end-author:taoYan date:20170814 for:阻塞式弹框--
+            }
+        });
+    }
+	
+  //禁用、解禁选中节点
+    function Disabled1() {
+        var treeObj = jQuery.fn.zTree.getZTreeObj("role_menu_tree");
+       // var nodes = treeObj.getCheckedNodes();
+        var nodes = treeObj.getNodes();
+        for (var i = 0; i < nodes.length; i++) {
+        	alert(nodes[i].id);
+            //treeObj.setChkDisabled(nodes[i], true);
+           // treeObj.checkNode(nodes[i], false,false);
+        	if(nodes[i].id=='21'){
+        		alert('a');
+        		var childNodes = treeObj.getNodesByParam("isParent", false , nodes[i]);
+        		for(var m = 0; m < childNodes.length; m++) {
+        			alert(childNodes[i].id);
+        			treeObj.setChkDisabled(childNodes[i], true);
+        		}
+        	}
+        }
+    }
+    function Disabled2() {
+        var treeObj = jQuery.fn.zTree.getZTreeObj("role_menu_tree");
+        var nodes = treeObj.getCheckedNodes();
+
+        for (var i = 0; i < nodes.length; i++) {
+            treeObj.setChkDisabled(nodes[i], false);
+        }
+    }
+    
+    function getChildNodes(treeNode) {
+        var childNodes = ztree.transformToArray(treeNode);
+        var nodes = new Array();
+        for(i = 0; i < childNodes.length; i++) {
+                   nodes[i] = childNodes[i].id;
+        }
+        return nodes.join(",");
+    }
+$(document).ready(function(){
+	showAuth('$!{basePath}/system/jpSystemRole/initAuth.do','$!{role.id}');
+});
+
+</script>
