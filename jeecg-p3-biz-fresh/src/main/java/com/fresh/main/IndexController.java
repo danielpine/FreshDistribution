@@ -39,7 +39,7 @@ public class IndexController extends BaseController{
 	public void storage(HttpServletRequest request,HttpServletResponse response,ModelMap model) throws Exception{
 	  try {
 	    VelocityContext velocityContext = new VelocityContext();
-	    String viewName = "fresh/main/index.vm";
+	    String viewName = "fresh/main/storage.vm";
 	    ViewVelocity.view(request,response,viewName,velocityContext);
 	  } catch (Exception e) {
 	    e.printStackTrace();

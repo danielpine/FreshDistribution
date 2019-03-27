@@ -14,7 +14,7 @@ public class P3CodeGenerateUtil {
 
 	public static void main(String[] args) {
 		//表名（多个表可用逗号隔开）
-		String code_cg_tables = "f_d_store_items";
+		String code_cg_tables = "f_d_goods";
 		
 		//执行代码生成器
 		for (String tableName : code_cg_tables.split(",")) {

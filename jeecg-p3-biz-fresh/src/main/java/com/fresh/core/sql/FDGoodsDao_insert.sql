@@ -3,11 +3,11 @@ INSERT  INTO
       ( 
       ID                            
       ,name                           
-      ,type                           
+      ,gtype                          
       ) 
 values
       (
       :fDGoods.id                            
       ,:fDGoods.name                          
-      ,:fDGoods.type                          
+      ,:fDGoods.gtype                         
       )

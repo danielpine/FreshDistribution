@@ -16,9 +16,9 @@
 												</div>
 											</div>
 											<div class="form-group mno">
-												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">type</label>
+												<label for="inputEmail3" class="col-sm-2 control-label" style="text-align:left;">gtype</label>
 												<div class="col-sm-2">
-													<input type="text" value="$!{fDGoods.type}" name="type" id="type" class="form-control" />
+													<input type="text" value="$!{fDGoods.gtype}" name="gtype" id="gtype" class="form-control" />
 												</div>
 											</div>
 						</fieldset>

@@ -15,7 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.fresh.core.entity.FDGoodsEntity;
+import com.fresh.core.entity.FDStoreEntity;
 import com.fresh.core.entity.FDStoreItemsEntity;
+import com.fresh.core.model.DateVo;
 import com.fresh.core.service.FDStoreItemsService;
 
  /**
@@ -167,6 +171,32 @@ public class FDStoreItemsController extends BaseController{
 		}
 		return j;
 	}
+	
+	/**
+     * Find store grid data
+     * @return
+     */
+    @RequestMapping(params = "findGrid",method ={RequestMethod.GET, RequestMethod.POST})
+    @ResponseBody
+    public AjaxJson findGrid(
+        @ModelAttribute DateVo dateVo,
+        @ModelAttribute FDGoodsEntity goods,
+        @ModelAttribute FDStoreEntity store,
+        @ModelAttribute FDStoreItemsEntity fDStoreItems){
+        AjaxJson j = new AjaxJson();
+        LOG.info("{}",dateVo);
+        LOG.info("{}",goods);
+        LOG.info("{}",store);
+        LOG.info("{}",fDStoreItems);
+        try {
+            j.setMsg("保存成功");
+        } catch (Exception e) {
+            j.setSuccess(false);
+            j.setMsg("保存失败");
+            e.printStackTrace();
+        }
+        return j;
+    }
 
 }
 

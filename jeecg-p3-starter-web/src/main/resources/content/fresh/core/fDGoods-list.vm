@@ -18,9 +18,9 @@
 											</div>
 										 </div>
 										 <div class="form-group col-sm-3">
-											<label for="type" class="control-label col-sm-3 line34">type</label>
+											<label for="gtype" class="control-label col-sm-3 line34">gtype</label>
 											<div class="col-sm-8">
-												<input type="text" name="type" id="type" value="$!{fDGoods.type}" class="form-control">
+												<input type="text" name="gtype" id="gtype" value="$!{fDGoods.gtype}" class="form-control">
 											</div>
 										 </div>
 								<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> 搜  索</button>
@@ -39,7 +39,7 @@
 											<input type="checkbox" name="ckAll" id="ckAll" />
 					        		</th>
 											<th>name</th>
-											<th>type</th>
+											<th>gtype</th>
 									<th>操作</th>
 								</thead>
 								<tbody>
@@ -50,7 +50,7 @@
 													<input type="checkbox" name="ck" id="ck_$!{velocityCount}" value="$!{info.id}"/>
 											</td>	
 														<td>$!{info.name}</td>
-														<td>$!{info.type}</td>
+														<td>$!{info.gtype}</td>
 											<td class="last">
 											<a class="btn btn-success btn-xs"  href="javascript:doUrl('$!{basePath}/fresh/fDGoods.do?toEdit&id=$!{info.id}')" ><i class="fa fa-edit"></i> 编辑</a>
 											<a class="btn btn-danger btn-xs" href="javascript:delData('$!{basePath}/fresh/fDGoods.do?doDelete&id=$!{info.id}')"><i class="fa fa-trash-o"></i> 删除</a>
