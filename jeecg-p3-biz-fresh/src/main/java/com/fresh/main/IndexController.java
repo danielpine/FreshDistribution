@@ -51,7 +51,7 @@ public class IndexController extends BaseController{
 	    try {
 	      VelocityContext velocityContext = new VelocityContext();
 	      System.out.println("deliver");
-	      String viewName = "fresh/core/fDGoods-add.vm";
+	      String viewName = "fresh/main/deliver.vm";
 	      ViewVelocity.view(request, response, viewName, velocityContext);
 	    } catch (Exception e) {
 	      e.printStackTrace();

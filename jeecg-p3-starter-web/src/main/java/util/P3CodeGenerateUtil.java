@@ -14,11 +14,11 @@ public class P3CodeGenerateUtil {
 
 	public static void main(String[] args) {
 		//表名（多个表可用逗号隔开）
-		String code_cg_tables = "f_d_goods";
+		String code_cg_tables = "f_d_order";
 		
 		//执行代码生成器
 		for (String tableName : code_cg_tables.split(",")) {
-			CodeGenerateFactory.codeGenerateByFTL(tableName, "商品表", FtlDef.KEY_TYPE_02);
+			CodeGenerateFactory.codeGenerateByFTL(tableName, "订单表", FtlDef.KEY_TYPE_02);
 		}
 	}
 }
