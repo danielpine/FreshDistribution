@@ -33,7 +33,7 @@
 	<div class="animated fadeInDown" align=center>
 		<div style="width: 1366px; height: 50px"></div>
 		<div style="width: 1366px; height: 60px">
-			<font size=20 style="font-family: 华文新魏">生鲜配送决策平台</font>
+			<font size=20 style="font-family:华文新魏">生鲜配送决策平台</font>
 		</div>
 		<div style="width: 1366px; height: 50px"></div>
 		<div style="width: 900px; height: 400px;" class="gray-bg" align=center>
@@ -49,7 +49,7 @@
 						<form class="m-t" role="form" id="loginForm">
 							<input type="hidden" name="checkUser" />
 							<div class="form-group">
-								<input type="text" class="form-control" value="admin"
+								<input type="text" style="color:black" class="form-control" value="admin"
 									name="username" id="username" placeholder="用户名"
 									nullmsg="请填写用户名" datatype="*">
 							</div>

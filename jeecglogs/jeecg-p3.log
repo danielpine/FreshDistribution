@@ -4891,3 +4891,62 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 [INFO][2019-03-28 19:53:20,091][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
 [ERROR][2019-03-28 19:53:20,289][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
 [INFO][2019-03-28 19:53:20,352][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 19:56:12,555][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 19:56:12,556][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 19:56:12,557][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 19:56:12,794][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 19:56:12,857][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 19:56:21,380][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 19:56:25,537][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 19:56:25,537][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 19:56:25,538][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 19:56:25,538][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 20:00:46,444][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 20:00:46,445][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 20:00:46,445][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 20:00:46,445][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 20:00:46,445][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 20:00:46,446][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 20:00:46,652][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 20:00:46,713][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 20:00:56,634][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 20:00:59,051][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 20:00:59,051][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 20:00:59,051][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 20:00:59,051][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[WARN][2019-03-28 20:01:39,774][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-28 20:01:55,150][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[WARN][2019-03-28 20:01:55,398][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/system/images/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-28 20:01:58,885][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 20:01:58,885][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 20:01:58,885][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 20:01:58,885][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 20:02:10,888][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 20:02:10,888][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 20:02:10,888][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 20:02:10,888][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 20:02:21,807][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201901, endDate=201812]
+[INFO][2019-03-28 20:02:21,807][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 20:02:21,807][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 20:02:21,808][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 20:02:27,004][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201701, endDate=201812]
+[INFO][2019-03-28 20:02:27,004][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 20:02:27,004][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 20:02:27,004][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[WARN][2019-03-28 20:02:32,703][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/favicon.ico] in DispatcherServlet with name 'springmvc'
+[WARN][2019-03-28 20:03:31,993][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/favicon.ico] in DispatcherServlet with name 'springmvc'
