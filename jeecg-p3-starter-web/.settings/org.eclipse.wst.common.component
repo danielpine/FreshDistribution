@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="jeecg-p3-report-web">
+    <wb-module deploy-name="fresh-web">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="jeecg-p3-biz-fresh-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/jeecg-p3-biz-fresh/jeecg-p3-biz-fresh">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="jeecg-p3-base-system-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/jeecg-p3-base-system/jeecg-p3-base-system">
             <dependency-type>uses</dependency-type>
         </dependent-module>
