@@ -812,3 +812,5 @@ Was expecting one of:
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 2019-03-27 21:31:49,131 - ResourceManager : unable to find resource 'content/fresh/core/fDGoods-add.vm' in any resource loader.
+2019-03-28 14:40:58,705 - ResourceManager : unable to find resource 'content/base/back/common/macro.vm' in any resource loader.
+2019-03-28 14:40:58,706 - #parse(): cannot find template 'content/base/back/common/macro.vm', called at content/fresh/main/storage.vm[line 1, column 1]

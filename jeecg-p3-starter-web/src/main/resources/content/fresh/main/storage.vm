@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 #parse("content/base/back/common/head.vm")
+<script type="text/javascript"
+	src="$!{basePath}/content/jeecg/plugin/jquery/jquery.table2excel.js"></script>
 <style>
 table {
 	border-top-color: black;
@@ -13,8 +15,8 @@ table {
 	border-bottom-style: solid;
 	border-left-style: solid;
 	width: 100%;
-	border-top-width: 0px;
-	border-right-width: 0px;
+	border-top-width: 0;
+	border-right-width: 0;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
 }
@@ -39,7 +41,7 @@ td {
 	margin-bottom: 18px;
 }
 
-.clearfix:before, .clearfix:after {
+.clearfix:after, .clearfix:before {
 	display: table;
 	content: '';
 }
@@ -63,7 +65,7 @@ hr {
 	/* 避免为渲染前显示vue代码 */
 }
 
-html, body {
+body, html {
 	text-align: center;
 	background-color: aliceblue;
 	font-family: 微软雅黑;
@@ -79,7 +81,7 @@ footer {
 	text-align: right;
 }
 
-a, a:hover, a:focus, a:visited {
+a, a:focus, a:hover, a:visited {
 	color: #000;
 }
 
@@ -119,29 +121,34 @@ a, a:hover, a:focus, a:visited {
 								method="post" id="formSubmit">
 								<div class="form-group col-sm-3">
 									<ul>
-										<li><div class="form-group row">
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">开始日期</label>
 												<div class="col-sm-8">
 													<input name="staDate" id="staDate" type="text"
 														value="2017.12" class="Wdate form-control"
 														onfocus="WdatePicker({dateFmt: 'yyyy.MM'})">
 												</div>
-											</div></li>
-										<li><div class="form-group row">
+											</div>
+										</li>
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">结束日期</label>
 												<div class="col-sm-8">
 													<input name="endDate" id="endDate" type="text"
 														value="2018.12" class="Wdate form-control"
 														onfocus="WdatePicker({dateFmt: 'yyyy.MM'})">
 												</div>
-											</div></li>
+											</div>
+										</li>
 									</ul>
 								</div>
 								<div class="form-group col-sm-3">
 									<ul>
 										<li><label class="control-label col-sm-3 line34">商
 												品</label></li>
-										<li><div class="form-group row">
+										<li>
+											<div class="form-group row">
 												<label for="gtype" class="control-label col-sm-3 line34">商品类型</label>
 												<div class="col-sm-8">
 													<select style="width: 170px;" name="gtype" id="gtype"
@@ -154,14 +161,17 @@ a, a:hover, a:focus, a:visited {
 														<option value="干货">干货</option>
 													</select>
 												</div>
-											</div></li>
-										<li><div class="form-group row">
+											</div>
+										</li>
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">商品名称</label>
 												<div class="col-sm-8">
 													<input style="width: 170px;" type="text" name="gname"
 														id="gname" value="" class="form-control">
 												</div>
-											</div></li>
+											</div>
+										</li>
 
 									</ul>
 								</div>
@@ -169,40 +179,46 @@ a, a:hover, a:focus, a:visited {
 									<ul>
 										<li><label for="location"
 											class="control-label col-sm-3 line34">仓 库</label></li>
-										<li><div class="form-group row">
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">仓库地点</label>
 												<div class="col-sm-8">
 													<input type="text" name="location" id="location" value="青岛"
 														class="form-control">
 												</div>
-											</div></li>
-										<li><div class="form-group row">
+											</div>
+										</li>
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">仓库类型</label>
 												<div class="col-sm-8">
 													<input type="text" name="type" id="type" value="中型"
 														class="form-control">
 												</div>
-											</div></li>
-										<li><div class="form-group row">
+											</div>
+										</li>
+										<li>
+											<div class="form-group row">
 												<label for="location" class="control-label col-sm-3 line34">仓库名称</label>
 												<div class="col-sm-8">
 													<input type="text" name="name" id="name" value=""
 														class="form-control">
 												</div>
-											</div></li>
+											</div>
+										</li>
 									</ul>
 								</div>
 							</form>
-							<div class="form-group col-sm-3" align=left>
+							<div class="form-group col-sm-3" align="left">
 								<button type="submit" onclick="expPng()" class="btn btn-primary">
-									<!-- <i class="fa fa-search"></i>  -->
+									<!-- <i class="fa fa-search"></i> -->
 									导出图片
 								</button>
 								<button type="submit" onclick="expXls()" class="btn btn-primary">
-									<!-- <i class="fa fa-search"></i>  -->
+									<!-- <i class="fa fa-search"></i> -->
 									导出表格
 								</button>
-								<button type="button" onclick="print()" class="btn btn-primary">
+								<button type="button" onclick="doPrint()" class="btn btn-primary">
 									<!-- <i class="fa fa-refresh"></i> -->
 									打 印
 								</button>
@@ -218,11 +234,13 @@ a, a:hover, a:focus, a:visited {
 			</div>
 		</div>
 	</div>
+	<!--startprint-->
 	<div id="main" style="width: 100%; height: 500px;"></div>
-	<div id="app" v-cloak>
+	<div id="app" v-cloak="v-cloak">
 		<p>
 			<!-- v-if="tableData.length>0" -->
-		<table border='1' align='center' cellpadding='0' cellspacing='0'>
+		<table id="datatable" border='1' align='center' cellpadding='0'
+			cellspacing='0'>
 			<thead>
 				<tr style="height: 41px; background: lightcyan">
 					<td style="font-size: 16px; font-weight: normol; width: 60px;">#</td>
@@ -241,12 +259,12 @@ a, a:hover, a:focus, a:visited {
 		</table>
 		</p>
 	</div>
+	<!--endprint-->
 </body>
 </html>
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script type="text/javascript"
 	src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
-
 <script>
     var vm = new Vue({
 	el : '#app',
@@ -276,8 +294,7 @@ a, a:hover, a:focus, a:visited {
 		    type : 'category'
 		},
 		yAxis : {},
-		// Declare several bar series, each will be mapped
-		// to a column of dataset.source by default.
+		// Declare several bar series, each will be mapped to a column of dataset.source by default.
 		series : [ {
 		    type : 'bar'
 		}, {
@@ -331,13 +348,13 @@ a, a:hover, a:focus, a:visited {
 	}
     });
 
-    //jquery获取复选框值    
+    //jquery获取复选框值
     function getCkValue() {
 	var chk_value = [];
 	$('input[name="ck"]:checked').each(function() {
 	    chk_value.push($(this).val());
 	});
-	//alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value);    
+	//alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value);
     }
     //获得所有选中行的ID进行批量删除
     function batchDelete() {
@@ -356,7 +373,7 @@ a, a:hover, a:focus, a:visited {
 		jQuery.ajax({
 		    url : '$!{basePath}/fresh/fDStoreItems.do?batchDelete',
 		    data : {
-			ids : ids,
+			ids : ids
 		    },
 		    type : 'POST',
 		    dataType : 'json',
@@ -420,19 +437,50 @@ a, a:hover, a:focus, a:visited {
 	    }
 	});
     }
-    //重置按钮    
+    //重置按钮
     function searchReset() {
 	$("#formSubmit").find(":input").val("");
 	$("#formSubmit").submit();
     }
     function expPng() {
-	var ca = $("#main").find("canvas")[0]
-	console.log(ca)
+	var img = new Image();
+	img.src = vm.myChart.getDataURL({
+	    type : "png",
+	    pixelRatio : 2, //放大2倍
+	    backgroundColor : '#fff'
+	});
+	img.onload = function() {
+	    var canvas = document.createElement("canvas");
+	    canvas.width = img.width;
+	    canvas.height = img.height;
+	    var ctx = canvas.getContext('2d');
+	    ctx.drawImage(img, 0, 0);
+	    var dataURL = canvas.toDataURL('image/png');
+	    var a = document.createElement('a');
+	    // 创建一个单击事件
+	    var event = new MouseEvent('click');
+	    // 将a的download属性设置为我们想要下载的图片名称，若name不存在则使用‘下载图片名称’作为默认名称
+	    a.download = 'storeage_manage.png';
+	    // 将生成的URL设置为a.href属性
+	    a.href = dataURL;
+	    // 触发a的单击事件
+	    a.dispatchEvent(event);
+	};
     }
     function expXls() {
-
+	$('#datatable').table2excel({
+	    exclude : '.noExl',
+	    name : 'Excel Document Name',
+	    filename : 'storeage_t_data.xls',
+	    exclude_img : true,
+	    exclude_links : true,
+	    exclude_inputs : true
+	})
     }
-    function print() {
-
+    function doPrint() {
+	window.print();
     }
+    $(function() {
+	findGrid()
+    })
 </script>

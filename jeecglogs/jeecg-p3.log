@@ -3725,3 +3725,286 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 [INFO][2019-03-28 13:28:01,628][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
 [INFO][2019-03-28 13:30:02,954][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
 [INFO][2019-03-28 13:30:06,163][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:34:04,120][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 13:34:04,120][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 13:34:04,121][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 13:34:04,303][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 13:34:04,358][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 13:36:43,216][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 13:36:43,217][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 13:36:43,217][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 13:36:43,217][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 13:36:43,217][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 13:36:43,218][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 13:36:43,384][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 13:36:43,444][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 13:37:09,024][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:38:56,372][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 13:38:56,373][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 13:38:56,373][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 13:38:56,373][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 13:38:56,373][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 13:38:56,374][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 13:38:56,568][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 13:38:56,623][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 13:39:11,624][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:39:17,778][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:39:17,778][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:39:17,778][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:39:17,778][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:39:21,585][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:39:21,586][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:39:21,586][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:39:21,586][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:40:06,963][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:40:06,963][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:40:06,963][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:40:06,963][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:41:00,211][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:41:04,565][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:41:04,565][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:41:04,565][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:41:04,565][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:41:13,150][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:41:13,150][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-28 13:41:13,150][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:41:13,151][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:41:16,043][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:41:16,044][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=蔬菜]
+[INFO][2019-03-28 13:41:16,044][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:41:16,044][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:41:18,931][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:41:18,931][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:41:18,931][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:41:18,932][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:41:47,874][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:41:50,225][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:41:50,225][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:41:50,226][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:41:50,226][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:42:33,257][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:42:36,873][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:42:36,874][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:42:36,874][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:42:36,874][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:42:45,058][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:42:45,058][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-28 13:42:45,059][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:42:45,059][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:42:47,682][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:42:47,682][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:42:47,683][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:42:47,683][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:43:03,885][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201802, endDate=201812]
+[INFO][2019-03-28 13:43:03,885][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:43:03,885][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:43:03,885][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:12,037][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:44:14,422][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:44:14,422][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:44:14,422][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:14,422][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:24,197][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 13:44:26,737][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:44:26,737][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:44:26,737][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:26,737][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:36,573][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:44:36,573][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-28 13:44:36,573][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:36,573][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:39,002][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:44:39,003][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=蔬菜]
+[INFO][2019-03-28 13:44:39,003][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:39,003][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:42,098][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:44:42,098][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:44:42,098][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:42,098][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:44:45,746][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201802, endDate=201812]
+[INFO][2019-03-28 13:44:45,746][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:44:45,746][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:44:45,746][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:49:18,351][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201802, endDate=201812]
+[INFO][2019-03-28 13:49:18,352][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:49:18,352][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:49:18,352][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:49:46,534][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:49:46,535][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:49:46,535][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:49:46,535][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:56:30,031][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:56:30,032][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:56:30,032][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:56:30,032][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 13:59:40,753][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 13:59:40,754][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 13:59:40,754][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 13:59:40,754][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:10:33,214][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:10:33,214][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:10:33,215][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:10:33,215][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:11:11,955][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:11:11,955][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:11:11,955][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:11:11,955][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:11:50,831][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:11:50,831][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:11:50,832][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:11:50,832][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:12:53,361][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:12:53,362][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:12:53,362][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:12:53,362][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:13:56,545][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:13:56,545][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:13:56,545][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:13:56,546][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:16:49,580][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:16:49,580][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:16:49,580][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:16:49,580][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:28:12,051][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:28:12,051][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:28:12,051][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:28:12,051][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:32:00,811][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:32:00,811][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:32:00,811][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:32:00,811][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:34:45,487][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:34:45,488][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:34:45,488][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:34:45,488][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[WARN][2019-03-28 14:37:10,166][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/jeecg/plugin/jquery/jquery.table2excel.js] in DispatcherServlet with name 'springmvc'
+[WARN][2019-03-28 14:37:10,212][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/jeecg/plugin/jquery/jquery.table2excel.js] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-28 14:37:10,436][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:37:10,436][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:37:10,436][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:37:10,436][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:38:23,613][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:38:23,613][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:38:23,613][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:38:23,613][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:38:36,692][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:38:36,692][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:38:36,692][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:38:36,692][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:39:16,960][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:39:16,960][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-28 14:39:16,961][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:39:16,961][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:39:47,539][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:39:47,539][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:39:47,539][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:39:47,539][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:41:20,999][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-28 14:41:21,001][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-28 14:41:21,160][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-28 14:41:21,224][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-28 14:41:28,573][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 14:44:58,332][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:44:58,333][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:44:58,333][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:44:58,333][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:49:23,046][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:49:23,046][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:49:23,046][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:49:23,046][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:49:42,556][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201802]
+[INFO][2019-03-28 14:49:42,556][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:49:42,556][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:49:42,556][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:49:47,926][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201804]
+[INFO][2019-03-28 14:49:47,926][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:49:47,926][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:49:47,926][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:50:51,612][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:50:51,612][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:50:51,612][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:50:51,612][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:51:01,424][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:51:01,425][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:51:01,425][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:51:01,425][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:51:06,526][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:51:06,526][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:51:06,526][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:51:06,527][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:51:25,268][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:51:25,268][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:51:25,268][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:51:25,268][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:51:43,471][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:51:43,471][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:51:43,471][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:51:43,471][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:51:44,834][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:51:44,834][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:51:44,834][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:51:44,834][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:53:59,610][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-28 14:54:02,845][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:54:02,845][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:54:02,845][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:54:02,845][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:54:35,868][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:54:35,868][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:54:35,868][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:54:35,868][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 14:57:32,390][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 14:57:32,391][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 14:57:32,391][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 14:57:32,391][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:01:13,964][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:01:13,964][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:01:13,964][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:01:13,964][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:02:19,289][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:02:19,289][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:02:19,289][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:02:19,289][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:03:06,705][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:03:06,705][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:03:06,705][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:03:06,705][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:03:31,114][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:03:31,115][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:03:31,115][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:03:31,115][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:05:01,205][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:05:01,205][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:05:01,205][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:05:01,205][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-28 15:06:26,712][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-28 15:06:26,712][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-28 15:06:26,712][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-28 15:06:26,713][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]

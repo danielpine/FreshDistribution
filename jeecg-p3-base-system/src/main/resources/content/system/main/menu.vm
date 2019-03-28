@@ -16,7 +16,7 @@
                             <li><a href="javascript:void(0);">注销</a></li>
                         </ul>
                     </div>
-                    <div class="logo-element" style="font-size: 15px;">P3</div>
+                    <div class="logo-element" style="font-size: 15px;">Fresh</div>
                 </li>
 
               	$!{menuHtmlzz}
