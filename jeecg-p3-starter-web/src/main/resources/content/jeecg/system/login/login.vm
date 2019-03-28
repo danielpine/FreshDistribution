@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>生鲜配送决策平台-登录页面</title>
+<meta name="keywords" content="fresh">
+<meta name="description" content="生鲜配送决策平台">
+
+##
+<link rel="shortcut icon" href="favicon.ico">
+<link href="$!{basePath}/plug-in-ui/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="$!{basePath}/plug-in-ui/hplus/css/font-awesome.css"
+	rel="stylesheet" />
+
+<link href="$!{basePath}/plug-in-ui/hplus/css/animate.css"
+	rel="stylesheet">
+<link href="$!{basePath}/plug-in-ui/hplus/css/style.css"
+	rel="stylesheet">
+<!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+<link rel="stylesheet"
+	href="$!{basePath}/content/jeecg/plugin/layui/css/layui.css">
+<script>
+    if (window.top !== window.self) {
+	window.top.location = window.location;
+    }
+</script>
+</head>
+<body class="blue-bg">
+	<div class="animated fadeInDown" align=center>
+		<div style="width: 1366px; height: 50px"></div>
+		<div style="width: 1366px; height: 60px">
+			<font size=20 style="font-family: 华文新魏">生鲜配送决策平台</font>
+		</div>
+		<div style="width: 1366px; height: 50px"></div>
+		<div style="width: 900px; height: 400px;" class="gray-bg" align=center>
+			<div style="width: 1366px; height: 50px"></div>
+			<table style="width: 800px; margin: 0 atuo">
+				<tr></tr>
+				<tr>
+					<td><img alt="image" width="400" height="300"
+						src="/jeecg-p3-starter-web/content/jeecg/plugin/logo/login.jpg">
+					</td>
+					<td style="width: 10px;"></td>
+					<td>
+						<form class="m-t" role="form" id="loginForm">
+							<input type="hidden" name="checkUser" />
+							<div class="form-group">
+								<input type="text" class="form-control" value="admin"
+									name="username" id="username" placeholder="用户名"
+									nullmsg="请填写用户名" datatype="*">
+							</div>
+							<div class="form-group">
+								<input type="password" value="123456" class="form-control"
+									name="password" id="password" placeholder="密码" nullmsg="请填写密码"
+									datatype="*">
+							</div>
+							<input type="button" class="btn btn-primary block full-width m-b"
+								id="loginBtn" onclick="checkLoginUser();" value="登 录" />
+							<p class="text-muted text-center">
+								##
+								<a href="javascript:;">
+									<small>忘记密码了？</small>
+								</a>
+								|
+								<a href="javascript:;">注册</a>
+							</p>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript"
+		src="$!{basePath}/content/jeecg/plugin/layui/layui.js"></script>
+	<script type="text/javascript"
+		src="$!{basePath}/plug-in-ui/js/jquery-1.9.1.js"></script>
+	<script type="text/javascript"
+		src="$!{basePath}/plug-in-ui/hplus/js/bootstrap.min.js?v=3.3.6"></script>
+	<script type="text/javascript"
+		src="$!{basePath}/plug-in-ui/js/Validform_v5.3.2.js"></script>
+	<script>
+	jQuery(function() {
+	    jQuery("#loginForm").Validform({
+		tiptype : function(resultMsg, o, cssctl) {
+		    if (o.type == 3) {
+			msg(resultMsg, 2, 3 * 1000);
+		    }
+		}
+	    });
+
+	    jQuery("body").bind(
+		    "keydown",
+		    function(e) {
+			// 兼容FF和IE和Opera    
+			var theEvent = e || window.event;
+			var code = theEvent.keyCode || theEvent.which
+				|| theEvent.charCode;
+			if (code == 13) {
+			    //回车执行查询
+			    $("#loginBtn").click();
+			}
+		    });
+	});
+	function checkLoginUser() {
+	    layui
+		    .use(
+			    [ 'layer' ],
+			    function() {
+				var username = jQuery("#username").val();
+				var password = jQuery("#password").val();
+				if (username == null || username.length <= 0) {
+				    layer.tips("请填写用户名", jQuery("#username"));
+				    return false;
+				}
+				if (password == null || password.length <= 0) {
+				    layer.tips("请填写密码", jQuery("#password"));
+				    return false;
+				}
+				var loadIndex = layer.load();
+				jQuery
+					.ajax({
+					    url : '$!{basePath}/login.do?checkUser',
+					    data : {
+						username : jQuery("#username")
+							.val(),
+						password : jQuery("#password")
+							.val()
+					    },
+					    async : false,
+					    cache : false,
+					    type : 'POST',
+					    dataType : "json",
+					    success : function(res) {
+						if (res.success) {
+						    window.location.href = '$!{basePath}/system/index.do';
+						} else {
+						    alert(res.msg);
+						    window.location.href = '$!{basePath}/login.do?login';
+						}
+					    }
+					});
+			    });
+	}
+
+	function msg(content, icon, time) {
+	    layui.use([ 'layer' ], function() {
+		var layer = layui.layer;
+		layer.msg(content, {
+		    icon : icon,
+		    offset : 't',
+		    time : time
+		});
+	    });
+	}
+    </script>
+</body>
+</html>

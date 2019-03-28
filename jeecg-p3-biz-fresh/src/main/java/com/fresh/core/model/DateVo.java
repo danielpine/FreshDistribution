@@ -1,14 +1,9 @@
 /**
- * =========================================== 
- * Copyright (C) 2018 Finanstar 
+ * =========================================== Copyright (C) 2018 Finanstar
  * 
  * All rights reserved
  *
- * 项 目 名： deri-web 
- * 文 件 名： DateVo.java 
- * 版本信息： V1.0.0 
- * 作 者： Daniel Pine 
- * 日 期： 2019年3月27日-下午8:05:23
+ * 项 目 名： deri-web 文 件 名： DateVo.java 版本信息： V1.0.0 作 者： Daniel Pine 日 期： 2019年3月27日-下午8:05:23
  * 
  * ============================================
  */
@@ -31,7 +26,7 @@ public class DateVo {
   }
 
   public void setStaDate(String staDate) {
-    this.staDate = staDate;
+    this.staDate = staDate.replace(".", "");
   }
 
   public String getEndDate() {
@@ -39,7 +34,7 @@ public class DateVo {
   }
 
   public void setEndDate(String endDate) {
-    this.endDate = endDate;
+    this.endDate = endDate.replace(".", "");
   }
 
   @Override

@@ -2,16 +2,121 @@
 <!DOCTYPE html>
 <html lang="en">
 #parse("content/base/back/common/head.vm")
+<style>
+table {
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 100%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+}
+
+td {
+	text-align: center;
+	border-color: black;
+	border-style: solid solid none none;
+	border-width: 1px;
+	font-size: 0.95em;
+}
+
+.text {
+	font-size: 14px;
+}
+
+.text-center input {
+	text-align: center;
+}
+
+.item {
+	margin-bottom: 18px;
+}
+
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.box-card {
+	width: 480px;
+}
+
+hr {
+	margin: 20px auto;
+	height: 1px;
+	background: black;
+}
+
+[v-cloak] {
+	display: none;
+	/* 避免为渲染前显示vue代码 */
+}
+
+html, body {
+	text-align: center;
+	background-color: aliceblue;
+	font-family: 微软雅黑;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	border-top: 1px solid #ddd;
+}
+
+.el-input--mini .el-input__inner {
+	text-align: right;
+}
+
+a, a:hover, a:focus, a:visited {
+	color: #000;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 289px;
+}
+
+.el-input--medium .el-input__inner {
+	height: 30px;
+}
+
+.lang {
+	width: 99%;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
+.svg {
+	box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.3), 0 0 2rem rgba(0, 0, 0, 0.15);
+	width: 15px;
+	height: 15px;
+}
+</style>
 <body style='overflow: scroll; overflow-x: hidden'>
-	<div class="container bs-docs-container" style="width: 100%;">
+	<div class="container bs-docs-container" style="min-width: 1400px;">
 		<div class="row">
-			<form role="form" class="form-inline"
-				action="/jeecg-p3-starter-web/fresh/fDStore.do?list" method="post"
-				id="formSubmit">
-				<div class="col-md-10" style="width: 1400px; height: 100%">
-					<div class="panel panel-default">
-						<div class="panel-body" style="width: 1346px; height: 100%">
-							<div class="search" style="min-width: 1366px; min-height: 200px;">
+			<div class="col-md-10" style="width: 1400px; height: 100%">
+				<div class="panel panel-default">
+					<div class="panel-body" style="width: 1346px; height: 100%">
+						<div class="search" style="min-width: 1366px; min-height: 200px;">
+							<form role="form" class="form-inline"
+								action="/jeecg-p3-starter-web/fresh/fDStore.do?list"
+								method="post" id="formSubmit">
 								<div class="form-group col-sm-3">
 									<ul>
 										<li><div class="form-group row">
@@ -41,6 +146,7 @@
 												<div class="col-sm-8">
 													<select style="width: 170px;" name="gtype" id="gtype"
 														class="form-control">
+														<option value="">全部</option>
 														<option value="水果">水果</option>
 														<option value="蔬菜">蔬菜</option>
 														<option value="肉品">肉品</option>
@@ -86,131 +192,247 @@
 											</div></li>
 									</ul>
 								</div>
-								<div class="form-group col-sm-3">
-									<button type="submit" class="btn btn-primary">
-										<!-- <i class="fa fa-search"></i>  -->
-										导 出
-									</button>
-									<button type="button" class="btn btn-primary"
-										onclick="searchReset()">
-										<!-- <i class="fa fa-refresh"></i> -->
-										打 印
-									</button>
-									<br> <br> <br>
-									<button type="button" class="btn btn-primary"
-										onclick="findGrid()">
-										<i class="fa fa-search"></i> 加 载
-									</button>
-								</div>
+							</form>
+							<div class="form-group col-sm-3" align=left>
+								<button type="submit" onclick="expPng()" class="btn btn-primary">
+									<!-- <i class="fa fa-search"></i>  -->
+									导出图片
+								</button>
+								<button type="submit" onclick="expXls()" class="btn btn-primary">
+									<!-- <i class="fa fa-search"></i>  -->
+									导出表格
+								</button>
+								<button type="button" onclick="print()" class="btn btn-primary">
+									<!-- <i class="fa fa-refresh"></i> -->
+									打 印
+								</button>
+								<br> <br> <br> <br> <br> <br>
+								<button type="button" class="btn btn-primary"
+									onclick="findGrid()">
+									<i class="fa fa-search"></i> 加 载
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-			</form>
+			</div>
 		</div>
+	</div>
+	<div id="main" style="width: 100%; height: 500px;"></div>
+	<div id="app" v-cloak>
+		<p>
+			<!-- v-if="tableData.length>0" -->
+		<table border='1' align='center' cellpadding='0' cellspacing='0'>
+			<thead>
+				<tr style="height: 41px; background: lightcyan">
+					<td style="font-size: 16px; font-weight: normol; width: 60px;">#</td>
+					<td v-for="
+                item,key in tableHead" :key="key">{{tableLabel[item]}}</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr v-for="element,i in tableData" :key="i"
+					:style="{height: '25px',background:i%2==0?'lightgray':'none'}">
+					<td style="background: lightcyan">{{i+1}}</td>
+					<td v-for="
+                tag,key in tableHead" :key="key">{{element[tag]}}</td>
+				</tr>
+			</tbody>
+		</table>
+		</p>
 	</div>
 </body>
 </html>
-<script>
-	$("#ckAll").click(function() {
-		if ($(this).prop("checked")) {
-			$(":checkbox").prop("checked", true)
-		} else {
-			$(":checkbox").prop("checked", false)
-		}
-	});
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script type="text/javascript"
+	src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
 
-	//jquery获取复选框值    
-	function getCkValue() {
-		var chk_value = [];
-		$('input[name="ck"]:checked').each(function() {
-			chk_value.push($(this).val());
-		});
-		//alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value);    
+<script>
+    var vm = new Vue({
+	el : '#app',
+	data : {
+	    message : 'Hello Vue.js!',
+	    tableHead : [ "gname", "gtype", "location", "name", "type", "date",
+		    "count" ],
+	    tableLabel : {
+		"gname" : "商品名称",
+		"gtype" : "商品类型",
+		"location" : "仓库地点",
+		"name" : "仓库名称",
+		"type" : "仓库类型",
+		"date" : "入库日期",
+		"count" : "商品数量"
+	    },
+	    tableData : [],
+	    myChart : echarts.init(document.getElementById('main')),
+	    option : {
+		legend : {},
+		tooltip : {},
+		dataset : {
+		    dimensions : [ 'date', '蔬菜', '肉品', '水果', '水产', '干货' ],
+		    source : []
+		},
+		xAxis : {
+		    type : 'category'
+		},
+		yAxis : {},
+		// Declare several bar series, each will be mapped
+		// to a column of dataset.source by default.
+		series : [ {
+		    type : 'bar'
+		}, {
+		    type : 'bar'
+		}, {
+		    type : 'bar'
+		}, {
+		    type : 'bar'
+		}, {
+		    type : 'bar'
+		} ]
+	    }
+	},
+	created : function() {
+	    this.initChart()
+	},
+	methods : {
+	    initChart : function() {
+		this.myChart.setOption(this.option, true);
+	    },
+	    flushChart : function() {
+		var buf = {}
+		for (var i = 0; i < this.tableData.length; i++) {
+		    var o = this.tableData[i]
+		    // console.log(o.date, o.gtype, o.count)
+		    if (buf[o.date] == null) {
+			buf[o.date] = {}
+		    }
+		    if (buf[o.date].date == null) {
+			buf[o.date].date = o.date
+		    }
+		    if (buf[o.date][o.gtype] == null) {
+			buf[o.date][o.gtype] = 0
+		    }
+		    buf[o.date][o.gtype] += parseInt(o.count)
+		}
+		var source = []
+		for ( var e in buf) {
+		    source.push(buf[e])
+		}
+		this.option.dataset.source = source
+		this.myChart.setOption(this.option, true);
+	    }
 	}
-	//获得所有选中行的ID进行批量删除
-	function batchDelete() {
-		var ids = [];
-		var check = document.getElementsByName("ck");
-		for (var i = 0; i < check.length; i++) {
-			if (check[i].checked) {
-				ids.push(check[i].value);
-			}
-		}
-		if (ids.length > 0) {
-			parent.layer.confirm('确认进行批量删除吗？', {
-				btn : [ '确定', '取消' ]
-			//按钮
-			}, function() {
-				jQuery.ajax({
-					url : '$!{basePath}/fresh/fDStoreItems.do?batchDelete',
-					data : {
-						ids : ids,
-					},
-					type : 'POST',
-					dataType : 'json',
-					traditional : true,
-					success : function(data) {
-						if (data.success) {
-							parent.layer.alert(data.msg, {
-								icon : 1,
-								shadeClose : false,
-								title : '提示'
-							}, function(index) {
-								document.getElementById('formSubmit').submit();
-								parent.layer.close(index);
-							});
-						} else {
-							layeralert(data.msg, 0);
-						}
-					},
-					error : function(data, status, e) {
-						if (data.status == "401") {
-							layeralert("没有权限！", 0);
-							return;
-						}
-					}
-				});
-			});
-		} else {
-			layeralert("您还没有选择要删除的行");
-		}
+    })
+    $("#ckAll").click(function() {
+	if ($(this).prop("checked")) {
+	    $(":checkbox").prop("checked", true)
+	} else {
+	    $(":checkbox").prop("checked", false)
 	}
-	function findGrid() {
-		var inputs = $("#formSubmit").find("input,select")
-		var postData = {}
-		for (var i = 0; i < inputs.length; i++) {
-			var e = inputs.eq(i)
-			var name = e.attr("name")
-			var value = e.val().trim()
-			if (value !== undefined && value !== null && value !== '') {
-				// console.log(name, value)  
-				postData[name] = value
-			}
-		}
+    });
+
+    //jquery获取复选框值    
+    function getCkValue() {
+	var chk_value = [];
+	$('input[name="ck"]:checked').each(function() {
+	    chk_value.push($(this).val());
+	});
+	//alert(chk_value.length==0 ?'你还没有选择任何内容！':chk_value);    
+    }
+    //获得所有选中行的ID进行批量删除
+    function batchDelete() {
+	var ids = [];
+	var check = document.getElementsByName("ck");
+	for (var i = 0; i < check.length; i++) {
+	    if (check[i].checked) {
+		ids.push(check[i].value);
+	    }
+	}
+	if (ids.length > 0) {
+	    parent.layer.confirm('确认进行批量删除吗？', {
+		btn : [ '确定', '取消' ]
+	    //按钮
+	    }, function() {
 		jQuery.ajax({
-			url : '$!{basePath}/fresh/fDStoreItems.do?findGrid',
-			data : postData,
-			type : 'POST',
-			dataType : 'json',
-			traditional : true,
-			success : function(data) {
-				if (data.success) {
-				} else {
-					layeralert(data.msg, 0);
-				}
-			},
-			error : function(data, status, e) {
-				if (data.status == "401") {
-					layeralert("没有权限！", 0);
-					return;
-				}
+		    url : '$!{basePath}/fresh/fDStoreItems.do?batchDelete',
+		    data : {
+			ids : ids,
+		    },
+		    type : 'POST',
+		    dataType : 'json',
+		    traditional : true,
+		    success : function(data) {
+			if (data.success) {
+			    parent.layer.alert(data.msg, {
+				icon : 1,
+				shadeClose : false,
+				title : '提示'
+			    }, function(index) {
+				document.getElementById('formSubmit').submit();
+				parent.layer.close(index);
+			    });
+			} else {
+			    layeralert(data.msg, 0);
 			}
+		    },
+		    error : function(data, status, e) {
+			if (data.status == "401") {
+			    layeralert("没有权限！", 0);
+			    return;
+			}
+		    }
 		});
+	    });
+	} else {
+	    layeralert("您还没有选择要删除的行");
 	}
-	//重置按钮    
-	function searchReset() {
-		$("#formSubmit").find(":input").val("");
-		$("#formSubmit").submit();
+    }
+    function findGrid() {
+	var inputs = $("#formSubmit").find("input,select")
+	var postData = {}
+	for (var i = 0; i < inputs.length; i++) {
+	    var e = inputs.eq(i)
+	    var name = e.attr("name")
+	    var value = e.val().trim()
+	    if (value !== undefined && value !== null && value !== '') {
+		postData[name] = value
+	    }
 	}
+	jQuery.ajax({
+	    url : '$!{basePath}/fresh/fDStoreItems.do?findGrid',
+	    data : postData,
+	    type : 'POST',
+	    dataType : 'json',
+	    traditional : true,
+	    success : function(data) {
+		if (data.success) {
+		    vm.tableData = data.obj
+		    vm.flushChart()
+		} else {
+		    layeralert(data.msg, 0);
+		}
+	    },
+	    error : function(data, status, e) {
+		if (data.status == "401") {
+		    layeralert("没有权限！", 0);
+		    return;
+		}
+	    }
+	});
+    }
+    //重置按钮    
+    function searchReset() {
+	$("#formSubmit").find(":input").val("");
+	$("#formSubmit").submit();
+    }
+    function expPng() {
+	var ca = $("#main").find("canvas")[0]
+	console.log(ca)
+    }
+    function expXls() {
+
+    }
+    function print() {
+
+    }
 </script>
