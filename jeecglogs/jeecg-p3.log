@@ -5111,3 +5111,2357 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 [WARN][2019-03-28 20:20:31,501][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/system/images/favicon.ico] in DispatcherServlet with name 'springmvc'
 [INFO][2019-03-28 20:20:41,121][com.fresh.core.web.FDGoodsController][0:0:0:0:0:0:0:1]  back list
 [INFO][2019-03-28 20:20:48,674][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:12:00,885][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 09:12:00,886][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 09:12:00,887][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 09:12:00,887][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 09:12:01,076][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 09:12:01,132][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[WARN][2019-03-29 09:13:10,522][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/favicon.ico] in DispatcherServlet with name 'springmvc'
+[WARN][2019-03-29 09:13:17,311][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/system/images/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-29 09:13:17,360][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 09:13:38,359][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 09:13:58,565][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 09:16:42,405][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 09:16:42,406][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 09:16:42,406][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 09:16:42,407][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 09:16:42,407][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 09:16:42,407][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 09:16:42,407][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 09:16:42,408][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 09:16:42,408][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 09:16:42,408][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 09:16:42,408][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 09:16:42,408][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 09:16:42,590][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 09:16:42,649][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 09:16:54,953][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 09:18:31,012][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 09:18:31,012][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 09:18:31,013][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 09:18:31,197][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 09:18:31,252][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 09:18:43,264][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 09:18:49,308][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 09:18:49,309][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:18:49,309][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:18:49,309][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:19:05,902][com.fresh.core.web.FDGoodsController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:11,298][com.fresh.core.web.FDGoodsController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:14,133][com.fresh.core.web.FDGoodsController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:22,123][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:29,005][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:30,705][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:32,243][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:33,705][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:34,972][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:36,453][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:37,812][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:38,938][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:40,090][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:41,211][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:19:42,843][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:20:03,034][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:20:07,293][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:20:14,092][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:20:23,577][com.fresh.core.web.FDOrderController][0:0:0:0:0:0:0:1]  back list
+[INFO][2019-03-29 09:20:38,361][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 09:20:38,361][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:20:38,361][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:20:38,361][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:22:34,728][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:22:34,728][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:22:34,728][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:22:34,728][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:22:45,651][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181232]
+[INFO][2019-03-29 09:22:45,651][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:22:45,651][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:22:45,651][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:23:06,305][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:23:06,305][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:23:06,305][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:23:06,305][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:26:44,006][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171031, endDate=20181231]
+[INFO][2019-03-29 09:26:44,006][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:26:44,006][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:26:44,006][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:26:50,952][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171031, endDate=20181231]
+[INFO][2019-03-29 09:26:50,952][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:26:50,952][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:26:50,952][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:31:32,092][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:31:32,092][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:31:32,092][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:31:32,093][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:31:57,490][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:31:57,490][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:31:57,490][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:31:57,490][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:32:12,693][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:32:12,693][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:32:12,693][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:32:12,693][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:32:22,245][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:32:22,245][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:32:22,245][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:32:22,245][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:32:40,976][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:32:40,976][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:32:40,976][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:32:40,976][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:33:02,492][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:33:02,492][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:33:02,492][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:33:02,492][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:34:05,412][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:34:05,412][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:34:05,412][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:34:05,412][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:34:44,916][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:34:44,916][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:34:44,916][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:34:44,916][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:34:50,280][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:34:50,280][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:34:50,281][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:34:50,281][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:35:53,946][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:35:53,946][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:35:53,946][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:35:53,946][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:36:10,582][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:36:10,583][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:36:10,583][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:36:10,583][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:36:27,585][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:36:27,585][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:36:27,585][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:36:27,586][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:36:30,057][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:36:30,057][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:36:30,057][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:36:30,057][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:36:47,611][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:36:47,611][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:36:47,611][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:36:47,611][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:04,155][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:04,155][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:04,155][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:04,155][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:15,175][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:15,175][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:15,175][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:15,175][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:23,858][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:23,858][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:23,858][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:23,859][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:35,885][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:35,885][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:35,885][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:35,885][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:44,096][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:44,096][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:44,096][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:44,096][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:37:52,475][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:37:52,475][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:37:52,475][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:37:52,475][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:38:02,962][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:38:02,962][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:38:02,962][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:38:02,962][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:38:28,094][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:38:28,094][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:38:28,094][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:38:28,094][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:41:50,555][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:41:50,555][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 09:41:50,555][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 09:41:50,555][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 09:42:36,241][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=20171201, endDate=20181231]
+[INFO][2019-03-29 09:42:36,241][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=1, gtype=水果]
+[INFO][2019-03-29 09:42:36,241][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=1, type=中型]
+[INFO][2019-03-29 09:42:36,241][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 10:06:58,424][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 10:06:58,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 10:06:58,427][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 10:06:58,644][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 10:06:58,707][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 10:07:13,752][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 10:07:25,722][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[ERROR][2019-03-29 10:07:25,725][org.jeecgframework.minidao.aop.MiniDaoHandler]Template com/fresh/core/dao/FDQueryDao_getOrderCountWithDate.sql not found.
+java.io.FileNotFoundException: Template com/fresh/core/dao/FDQueryDao_getOrderCountWithDate.sql not found.
+	at org.jeecgframework.minidao.util.FreemarkerParseFactory.parseTemplate(FreemarkerParseFactory.java:88)
+	at org.jeecgframework.minidao.aop.MiniDaoHandler.parseSqlTemplate(MiniDaoHandler.java:569)
+	at org.jeecgframework.minidao.aop.MiniDaoHandler.invoke(MiniDaoHandler.java:99)
+	at com.sun.proxy.$Proxy48.getOrderCountWithDate(Unknown Source)
+	at com.fresh.core.web.FDOrderController.findGrid(FDOrderController.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:747)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:676)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:863)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR][2019-03-29 10:07:25,727][org.jeecgframework.minidao.aop.MiniDaoHandler]发送一次的模板key:{ com/fresh/core/dao/FDQueryDao_getOrderCountWithDate.sql }
+[INFO][2019-03-29 10:09:01,759][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 10:09:01,760][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 10:09:01,761][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 10:09:01,761][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 10:09:01,761][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 10:09:01,964][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 10:09:02,012][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 10:09:25,522][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 10:09:33,471][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:10:27,230][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:22:44,663][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:23:09,362][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:24:08,381][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:25:06,386][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:26:30,835][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:27,987][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:36,310][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"orderType":"本市",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:41,288][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"orderType":"外市",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:44,394][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:50,696][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:27:58,067][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"干货",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:28:03,127][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:28:42,899][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:28:46,402][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"本市",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:28:50,084][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:29:12,554][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20180828",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:29:25,645][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181028",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:29:54,831][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:30:14,406][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181201",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:30:17,697][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:32:57,573][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:33:39,790][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:39:03,453][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:40:52,704][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:41:01,090][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:41:57,192][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:44:03,553][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:44:18,315][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:44:38,864][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:44:56,806][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:45:20,337][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:45:42,869][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:46:19,518][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:47:20,574][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:47:45,145][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:47:58,997][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:48:05,629][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:48:57,905][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:49:45,411][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:07,091][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:21,929][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:30,902][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:34,076][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"蔬菜",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:39,293][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:50:51,134][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171029",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:51:27,736][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:53:05,114][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:53:27,727][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:53:48,153][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:54:05,301][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:54:15,871][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:55:08,300][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:55:24,596][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:55:39,171][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:55:52,730][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:56:29,904][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:56:58,776][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:57:37,099][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:57:50,678][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:58:11,432][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 10:59:19,194][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 10:59:19,195][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 10:59:19,195][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 10:59:19,195][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 10:59:19,196][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 10:59:19,392][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 10:59:19,448][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 10:59:27,044][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 10:59:32,463][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 10:59:32,463][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 10:59:32,464][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 10:59:32,464][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 10:59:39,880][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 10:59:39,880][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-29 10:59:39,880][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 10:59:39,880][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 10:59:42,551][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 10:59:42,551][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 10:59:42,551][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 10:59:42,552][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 10:59:53,792][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:00:06,695][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"tempMax":8,
+	"tempMin":1,
+	"type":"中型"
+}
+[INFO][2019-03-29 11:00:09,914][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"tempMax":8,
+	"tempMin":1,
+	"type":"中型"
+}
+[INFO][2019-03-29 11:01:25,932][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"本市",
+	"staDate":"20181101",
+	"tempMax":8,
+	"tempMin":1,
+	"type":"中型"
+}
+[INFO][2019-03-29 11:01:36,280][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"外市",
+	"staDate":"20181101",
+	"tempMax":8,
+	"tempMin":1,
+	"type":"中型"
+}
+[INFO][2019-03-29 11:02:06,076][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:02:08,583][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:02:18,174][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20161031",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:02:37,677][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:03:24,177][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:04:33,069][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 11:04:33,070][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 11:04:33,070][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 11:04:33,070][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 11:04:34,752][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:04:58,226][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"蔬菜",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:05:02,317][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"蔬菜",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:05:59,705][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"蔬菜",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171109",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:06:13,263][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171109",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:06:19,558][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水产",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171109",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:06:32,573][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水产",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171109",
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:06:46,427][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:08:35,902][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[WARN][2019-03-29 11:08:36,855][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/images/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-29 11:10:46,550][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 11:10:46,551][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 11:10:46,552][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 11:10:46,552][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 11:10:46,552][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 11:10:46,552][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 11:10:46,552][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 11:10:46,736][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 11:10:46,791][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 11:10:56,618][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 11:11:01,560][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:14:28,792][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:15:32,193][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:16:18,832][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:16:26,151][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:16:48,283][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:17:40,912][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:17:53,748][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:17:55,006][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:18:14,055][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:18:31,914][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:19:05,300][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:19:15,190][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:19:21,793][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:19:41,944][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:02,843][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:22,200][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:33,659][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:43,092][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:49,513][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:20:54,107][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:21:09,045][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:21:50,050][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:21:51,432][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:22:35,726][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:22:43,019][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:23:37,960][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:23:44,122][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:23:50,793][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:24:06,978][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:24:18,624][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:24:23,458][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:24:28,252][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:24:48,757][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:00,760][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:06,329][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:13,194][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:23,693][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:31,675][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:25:51,116][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:26:01,631][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:26:56,685][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:27:02,558][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:28:09,085][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:28:24,835][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:28:43,936][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:29:01,135][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:29:12,906][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:29:20,429][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:29:37,161][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:29:50,118][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:00,723][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:05,935][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:10,854][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:17,066][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:25,057][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:34,626][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:40,113][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:51,006][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:30:56,433][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:02,140][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:07,145][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:16,723][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:25,026][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:30,276][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:38,484][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:31:45,010][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:32:14,637][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:32:48,691][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:32:56,336][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:33:06,717][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:33:33,233][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:33:52,658][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:12,992][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:14,716][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:25,412][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:33,021][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:39,190][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:44,484][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:34:57,301][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:35:42,924][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:35:49,611][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:35:58,795][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:36:14,923][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:36:36,776][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:36:44,125][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:04,014][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:14,877][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:20,653][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:30,577][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:36,607][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:50,434][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:37:52,501][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:38:01,053][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:38:16,838][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:39:49,540][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:39:56,069][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:40:28,050][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:40:49,729][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:41:01,775][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:42:18,310][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:43:26,301][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:43:40,989][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:45:49,883][com.fresh.core.web.FDOrderController]{
+	"destination":"长沙",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:45:57,361][com.fresh.core.web.FDOrderController]{
+	"destination":"重庆",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:46:04,795][com.fresh.core.web.FDOrderController]{
+	"destination":"济南",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:46:19,650][com.fresh.core.web.FDOrderController]{
+	"destination":"长春",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 11:54:50,167][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 11:54:50,168][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 11:54:50,168][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 11:54:50,168][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 11:54:50,168][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 11:54:50,169][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 11:54:50,351][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 11:54:50,414][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 11:58:06,837][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 12:00:09,689][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 12:00:09,690][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 12:00:09,691][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 12:00:09,862][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 12:00:09,923][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 12:00:24,210][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 12:00:29,156][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 12:00:36,033][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:24:52,746][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 13:24:52,746][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 13:24:52,746][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 13:24:52,747][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 13:24:52,934][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 13:24:52,988][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 13:25:02,827][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 13:25:18,642][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:26:01,547][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 13:26:01,548][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 13:26:01,548][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 13:26:01,549][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 13:26:01,740][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 13:26:01,790][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 13:26:12,705][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 13:26:18,013][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:26:37,300][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:27:28,328][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171031",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:56:10,326][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 13:56:10,328][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 13:56:10,517][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 13:56:10,578][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 13:56:17,780][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 13:56:21,209][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:56:58,649][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 13:58:52,171][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:00:38,798][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:01:56,819][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:02:08,284][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:02:29,519][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20160829",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:05:41,919][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 14:05:41,920][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 14:05:41,921][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 14:05:41,921][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 14:05:41,921][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 14:05:41,921][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 14:05:41,921][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 14:05:42,132][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 14:05:42,200][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 14:06:00,627][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 14:06:03,896][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:07:29,559][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:08:34,468][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:09:41,384][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 14:09:41,385][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 14:09:41,386][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 14:09:41,576][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 14:09:41,638][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 14:09:52,326][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 14:09:57,431][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:10:42,629][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:13:21,106][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:13:30,538][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:13:46,004][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:13:55,267][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:14:11,085][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:14:21,643][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:14:21,643][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:14:21,643][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:14:21,644][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:14:50,091][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:14:50,091][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:14:50,091][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:14:50,091][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:15:32,420][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:15:33,616][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:15:35,116][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:15:35,116][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:15:35,116][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:15:35,116][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:16:04,448][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gname":"白菜",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:16:31,245][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:16:59,493][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:17:02,446][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:20:25,718][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 14:20:25,719][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 14:20:25,720][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 14:20:25,721][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 14:20:25,721][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 14:20:25,721][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 14:20:25,721][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 14:20:25,919][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 14:20:25,972][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 14:20:32,180][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 14:21:51,168][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 14:21:51,170][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 14:21:51,171][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 14:21:51,171][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 14:21:51,171][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 14:21:51,171][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 14:21:51,171][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 14:21:51,361][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 14:21:51,420][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 14:21:59,502][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 14:22:02,723][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:22:10,915][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:22:10,915][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:22:10,915][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:22:10,915][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:22:12,889][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:22:49,870][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:22:49,870][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:22:49,870][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:22:49,870][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:22:51,678][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:22:54,119][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:22:55,852][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:13,396][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:16,978][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:27,535][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:31,551][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:32,432][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:33,167][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:43,195][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:44,483][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:52,523][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:23:59,335][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:24:00,165][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:24:04,947][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:24:12,975][com.fresh.core.web.FDOrderController]{
+	"destination":"2",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:24:18,357][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:24:19,859][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:25:09,868][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:25:10,906][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:25:13,005][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:25:26,781][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:28:42,820][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:28:52,237][com.fresh.core.web.FDOrderController]{
+	"deliveryterminal":"济南1站",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:29:08,355][com.fresh.core.web.FDOrderController]{
+	"deliveryterminal":"济南2站",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:29:23,452][com.fresh.core.web.FDOrderController]{
+	"deliveryterminal":"重庆1站",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:29:28,397][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:29:29,578][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:29:57,493][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:04,996][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:12,254][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:13,807][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:24,819][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:47,723][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:30:55,525][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:31:15,235][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:32:09,010][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:32:12,171][com.fresh.core.web.FDOrderController]{
+	"deliveryterminal":"济南1站",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:32:17,149][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:35:02,966][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:35:15,228][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:35:48,900][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:36:09,940][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:36:22,587][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:38:00,240][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:38:41,959][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:38:56,723][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:39:18,245][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:39:26,917][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:39:42,614][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:39:54,992][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:40:10,277][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:40:18,768][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:40:32,833][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:40:55,337][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:41:13,983][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:41:32,299][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:44:41,672][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:46:00,880][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:46:36,640][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:47:49,517][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:51:35,227][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:51:44,241][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:51:53,721][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"质量问题",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:51:56,535][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:52:45,572][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:52:51,662][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:52:52,842][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 14:53:01,643][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 14:53:01,643][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 14:53:01,643][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 14:53:01,643][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 14:53:14,546][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:07:36,423][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 15:07:36,424][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 15:07:36,424][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 15:07:36,425][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 15:07:36,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 15:07:36,426][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 15:07:36,642][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 15:07:36,700][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 15:07:48,009][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 15:07:52,393][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:18:51,660][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 15:18:51,661][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 15:18:51,661][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 15:18:51,661][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 15:18:51,661][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 15:18:51,662][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 15:18:51,840][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 15:18:51,890][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 15:19:01,336][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 15:19:04,971][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:19:11,941][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:00,361][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:06,212][com.fresh.core.web.FDOrderController]{
+	"backtype":"质量问题",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:09,360][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:14,764][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:17,633][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:21,060][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:25,465][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:31,803][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171107",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:37,938][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20171107",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:21:41,221][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171107",
+	"type":"中型"
+}

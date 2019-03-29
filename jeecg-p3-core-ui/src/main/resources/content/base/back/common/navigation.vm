@@ -1,4 +1,7 @@
 <div class="header">
-		<div class="pull-left logo">Jeecg-P3插件项目</div>
-		<div class="pull-right">Jeecg开源社区，欢迎您&nbsp$!{userid}  | <a href="$!{basePath}">退出</a></div>
+	<div class="pull-left logo"></div>
+	<div class="pull-right">
+		欢迎您&nbsp$!{userid} |
+		<a href="$!{basePath}">退出</a>
+	</div>
 </div>

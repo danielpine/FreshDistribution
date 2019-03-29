@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+#parse("content/base/back/common/head.vm")
+<body style='overflow: scroll; overflow-x: hidden'>
+	<div class="container bs-docs-container" style="width: 100%;">
+		<div class="row">
+			<div class="panel panel-default">
+				<div class="panel-heading">项目介绍</div>
+				<div class="panel-body">
+
+					<h1
+						style="box-sizing: inherit; font-size: 28px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; font-family: Lato,&amp; #39; Helvetica Neue&amp;#39; , &amp;#39; Microsoft YaHei&amp;#39; , Arial , Helvetica, sans-serif; line-height: 1.33em; padding: 0px; min-height: 1rem; -webkit-font-smoothing: antialiased; cursor: text; position: relative; white-space: normal; margin-top: 0px !important;">
+						生鲜配送决策平台</h1>
+</html>
+

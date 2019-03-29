@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
 
-    <title>JEECG-P3微服务框架</title>
+    <title>生鲜配送决策平台</title>
 
     <meta name="keywords" content="微服务框架，JEECG,后台bootstrap框架,jeecg-p3,后台HTML,java快速开发平台">
     <meta name="description" content="JEECG-P3微服务框架，业务组件以JAR方式提供、松耦合可插拔支持独立部署，也支持与Jeecg平台集成">

@@ -125,9 +125,9 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group">
 												<label for="location" class="control-label col-sm-4 line34">开始日期</label>
 												<div class="col-sm-8">
-													<input name="staDate"  style="width: 120px;" id="staDate" type="text"
-														value="2017.12" class="Wdate form-control"
-														onfocus="WdatePicker({dateFmt: 'yyyy.MM'})">
+													<input name="staDate" style="width: 120px;" id="staDate"
+														type="text" value="2018.11.01" class="Wdate form-control"
+														onfocus="WdatePicker({dateFmt: 'yyyy.MM.dd'})">
 												</div>
 											</div>
 										</li>
@@ -135,9 +135,9 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group">
 												<label for="location" class="control-label col-sm-4 line34">结束日期</label>
 												<div class="col-sm-8">
-													<input name="endDate" style="width: 120px;" id="endDate" type="text"
-														value="2018.12" class="Wdate form-control"
-														onfocus="WdatePicker({dateFmt: 'yyyy.MM'})">
+													<input name="endDate" style="width: 120px;" id="endDate"
+														type="text" value="2018.12.31" class="Wdate form-control"
+														onfocus="WdatePicker({dateFmt: 'yyyy.MM.dd'})">
 												</div>
 											</div>
 										</li>
@@ -183,8 +183,8 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="location" class="control-label col-sm-4 line34">仓库地点</label>
 												<div class="col-sm-8">
-													<input type="text" style="width: 120px;" name="location" id="location" value="青岛"
-														class="form-control">
+													<input type="text" style="width: 120px;" name="location"
+														id="location" value="青岛" class="form-control">
 												</div>
 											</div>
 										</li>
@@ -192,8 +192,8 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="location" class="control-label col-sm-4 line34">仓库类型</label>
 												<div class="col-sm-8">
-													<input type="text" style="width: 120px;" name="type" id="type" value="中型"
-														class="form-control">
+													<input type="text" style="width: 120px;" name="type"
+														id="type" value="中型" class="form-control">
 												</div>
 											</div>
 										</li>
@@ -201,8 +201,8 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="location" class="control-label col-sm-4 line34">仓库名称</label>
 												<div class="col-sm-8">
-													<input type="text" style="width: 120px;" name="name" id="name" value=""
-														class="form-control">
+													<input type="text" style="width: 120px;" name="name"
+														id="name" value="" class="form-control">
 												</div>
 											</div>
 										</li>
@@ -216,9 +216,10 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="gtype" class="control-label col-sm-4 line34">订单类型</label>
 												<div class="col-sm-8">
-													<select style="width: 120px;" name="gtype" id="gtype"
-														class="form-control">
+													<select style="width: 120px;" name="orderType"
+														id="orderType" class="form-control">
 														<option value="">全部</option>
+														<option value="海外">海外</option>
 														<option value="本市">本市</option>
 														<option value="外市">外市</option>
 													</select>
@@ -235,8 +236,8 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="gtype" class="control-label col-sm-4 line34">运输类型</label>
 												<div class="col-sm-8">
-													<select style="width: 120px;" name="gtype" id="gtype"
-														class="form-control">
+													<select style="width: 120px;" name="transType"
+														id="transType" class="form-control">
 														<option value="">全部</option>
 														<option value="陆运">陆运</option>
 														<option value="空运">空运</option>
@@ -249,8 +250,8 @@ a, a:focus, a:hover, a:visited {
 												<label for="location" class="control-label col-sm-4 line34">目
 													的 地</label>
 												<div class="col-sm-8">
-													<input style="width: 120px;" type="text" name="gname"
-														id="gname" value="" class="form-control">
+													<input style="width: 120px;" type="text" name="destination"
+														id="destination" value="" class="form-control">
 												</div>
 											</div>
 										</li>
@@ -258,8 +259,13 @@ a, a:focus, a:hover, a:visited {
 											<div class="form-group row">
 												<label for="location" class="control-label col-sm-4 line34">温度区间</label>
 												<div class="col-sm-8">
-													<input style="width: 120px;" type="text" name="gname"
-														id="gname" value="" class="form-control">
+													<div style="width: 130px;">
+														<input style="width: 54px;" type="text" name="tempMin"
+															id="tempMin" value="" class="form-control">
+														~
+														<input style="width: 54px;" type="text" name="tempMax"
+															id="tempMax" value="" class="form-control">
+													</div>
 												</div>
 											</div>
 										</li>
@@ -347,52 +353,60 @@ a, a:focus, a:hover, a:visited {
 	el : '#app',
 	data : {
 	    message : 'Hello Vue.js!',
-	    tableHead : [ "gname", "gtype", "location", "name", "type", "date",
-		    "count" ],
+	    tableHead : [ "date", "count" ],
 	    tableLabel : {
-		"gname" : "商品名称",
-		"gtype" : "商品类型",
-		"location" : "仓库地点",
-		"name" : "仓库名称",
-		"type" : "仓库类型",
-		"date" : "入库日期",
-		"count" : "商品数量"
+		"date" : "订单日期",
+		"count" : "订单数量"
 	    },
 	    tableData : [],
 	    myChart : echarts.init(document.getElementById('main')),
 	    option : {
-		legend : {},
+		title : {
+		    text : '发货日期关系图',
+		    subtext : '数据来自订单数据库',
+		    x : 'center'
+		},
 		tooltip : {
 		    trigger : 'axis',
 		    axisPointer : {
-			type : 'shadow'
+			animation : false
 		    }
 		},
-		dataset : {
-		    dimensions : [ 'date', '蔬菜', '肉品', '水果', '水产', '干货' ],
-		    source : []
+		axisPointer : {
+		    link : {
+			xAxisIndex : 'all'
+		    }
 		},
-		xAxis : {
-		    type : 'category'
-		},
-		yAxis : {},
-		// Declare several bar series, each will be mapped to a column of dataset.source by default.
+		dataZoom : [ {
+		    show : true,
+		    realtime : true,
+		    start : 30,
+		    end : 70 
+		}, {
+		    type : 'inside',
+		    realtime : true,
+		    start : 30,
+		    end : 70 
+		} ],
+		xAxis :  {
+		    type : 'category',
+		    boundaryGap : false,
+		    axisLine : {
+			onZero : true
+		    },
+		    data : []
+		} ,
+		yAxis :   {
+		    name : '数量',
+		    type : 'value'
+		} ,
 		series : [ {
-		    type : 'bar',
-		    label : labelOption
-		}, {
-		    type : 'bar',
-		    label : labelOption
-		}, {
-		    type : 'bar',
-		    label : labelOption
-		}, {
-		    type : 'bar',
-		    label : labelOption
-		}, {
-		    type : 'bar',
-		    label : labelOption
-		} ]
+		    name : '订单数量',
+		    type : 'line',
+		    symbolSize : 8,
+		    hoverAnimation : false,
+		    data : []
+		}]
 	    }
 	},
 	created : function() {
@@ -403,26 +417,16 @@ a, a:focus, a:hover, a:visited {
 		this.myChart.setOption(this.option, true);
 	    },
 	    flushChart : function() {
-		var buf = {}
+		var xdata = []
+		var sdata = []
 		for (var i = 0; i < this.tableData.length; i++) {
 		    var o = this.tableData[i]
-		    // console.log(o.date, o.gtype, o.count)
-		    if (buf[o.date] == null) {
-			buf[o.date] = {}
-		    }
-		    if (buf[o.date].date == null) {
-			buf[o.date].date = o.date
-		    }
-		    if (buf[o.date][o.gtype] == null) {
-			buf[o.date][o.gtype] = 0
-		    }
-		    buf[o.date][o.gtype] += parseInt(o.count)
+		    xdata.push(o.date)
+		    sdata.push(o.count)
 		}
-		var source = []
-		for ( var e in buf) {
-		    source.push(buf[e])
-		}
-		this.option.dataset.source = source
+		this.option.xAxis.data = xdata
+		this.option.series[0].data = sdata
+		console.log(this.option)
 		this.myChart.setOption(this.option, true);
 	    }
 	}
@@ -503,7 +507,7 @@ a, a:focus, a:hover, a:visited {
 	    }
 	}
 	jQuery.ajax({
-	    url : '$!{basePath}/fresh/fDStoreItems.do?findGrid',
+	    url : '$!{basePath}/fresh/fDOrder.do?findGrid',
 	    data : postData,
 	    type : 'POST',
 	    dataType : 'json',
@@ -529,41 +533,42 @@ a, a:focus, a:hover, a:visited {
 	$("#formSubmit").find(":input").val("");
 	$("#formSubmit").submit();
     }
-    function expPng() {
-	var img = new Image();
-	img.src = vm.myChart.getDataURL({
-	    type : "png",
-	    pixelRatio : 2, //放大2倍
-	    backgroundColor : '#fff'
-	});
-	img.onload = function() {
-	    var canvas = document.createElement("canvas");
-	    canvas.width = img.width;
-	    canvas.height = img.height;
-	    var ctx = canvas.getContext('2d');
-	    ctx.drawImage(img, 0, 0);
-	    var dataURL = canvas.toDataURL('image/png');
-	    var a = document.createElement('a');
-	    // 创建一个单击事件
-	    var event = new MouseEvent('click');
-	    // 将a的download属性设置为我们想要下载的图片名称，若name不存在则使用‘下载图片名称’作为默认名称
-	    a.download = 'storeage_manage.png';
-	    // 将生成的URL设置为a.href属性
-	    a.href = dataURL;
-	    // 触发a的单击事件
-	    a.dispatchEvent(event);
-	};
-    }
-    function expXls() {
-	$('#datatable').table2excel({
-	    exclude : '.noExl',
-	    name : 'Excel Document Name',
-	    filename : 'storeage_t_data.xls',
-	    exclude_img : true,
-	    exclude_links : true,
-	    exclude_inputs : true
-	})
-    }
+    var page = "deliver"
+	    function expPng() {
+		var img = new Image();
+		img.src = vm.myChart.getDataURL({
+		    type : "png",
+		    pixelRatio : 2, //放大2倍
+		    backgroundColor : '#fff'
+		});
+		img.onload = function() {
+		    var canvas = document.createElement("canvas");
+		    canvas.width = img.width;
+		    canvas.height = img.height;
+		    var ctx = canvas.getContext('2d');
+		    ctx.drawImage(img, 0, 0);
+		    var dataURL = canvas.toDataURL('image/png');
+		    var a = document.createElement('a');
+		    // 创建一个单击事件
+		    var event = new MouseEvent('click');
+		    // 将a的download属性设置为我们想要下载的图片名称，若name不存在则使用‘下载图片名称’作为默认名称
+		    a.download = page + '_manage.png';
+		    // 将生成的URL设置为a.href属性
+		    a.href = dataURL;
+		    // 触发a的单击事件
+		    a.dispatchEvent(event);
+		};
+	    }
+	    function expXls() {
+		$('#datatable').table2excel({
+		    exclude : '.noExl',
+		    name : 'Excel Document Name',
+		    filename : page + '_t_data.xls',
+		    exclude_img : true,
+		    exclude_links : true,
+		    exclude_inputs : true
+		})
+	    }
     function doPrint() {
 	window.print();
     }
