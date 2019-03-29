@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50720
 File Encoding         : 65001
 
-Date: 2019-03-29 17:14:25
+Date: 2019-03-29 17:26:09
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -5149,12 +5149,15 @@ CREATE TABLE `jp_system_auth` (
 -- Records of jp_system_auth
 -- ----------------------------
 INSERT INTO `jp_system_auth` VALUES ('093A3F2C1DA14A9EAF4B4B89B76C1F99', '退货管理', '0', '', 'fresh.do?backgoods', 'F2B4E22492E645D78C8144778D260421', '4', '4', '0', '', 'admin', '2019-03-27 11:53:04', null, null);
-INSERT INTO `jp_system_auth` VALUES ('288332478209416A9B0A51C98BAD5A61', '数据管理', '0', '', '/fresh.do?data', '0', '2', '2', '0', '', 'admin', '2019-03-27 16:37:45', null, null);
-INSERT INTO `jp_system_auth` VALUES ('3F0EB3F318D242878F492DD48F7E8966', '综合管理', '0', '', '/fresh.do?data', '288332478209416A9B0A51C98BAD5A61', '21', '1', '0', '', 'admin', '2019-03-27 16:38:33', null, null);
+INSERT INTO `jp_system_auth` VALUES ('225AC0FB56634BBD89F978281ADD1C1D', '库存数据', '0', '', 'fresh/fDStoreItems.do?list', '288332478209416A9B0A51C98BAD5A61', '23', '3', '0', '', 'admin', '2019-03-29 17:24:15', null, null);
+INSERT INTO `jp_system_auth` VALUES ('288332478209416A9B0A51C98BAD5A61', '数据管理', '0', '', '', '0', '2', '2', '0', '', 'admin', '2019-03-27 16:37:45', null, null);
+INSERT INTO `jp_system_auth` VALUES ('3F0EB3F318D242878F492DD48F7E8966', '商品数据', '0', '', 'fresh/fDGoods.do?list', '288332478209416A9B0A51C98BAD5A61', '21', '1', '0', '', 'admin', '2019-03-27 16:38:33', null, null);
 INSERT INTO `jp_system_auth` VALUES ('41CE12EFA6B04579BC0869B5B269874C', '系统管理', '0', '系统管理-', '', '0', '5', '5', '0', 'fa-cog', null, '2017-08-08 12:02:53', null, null);
 INSERT INTO `jp_system_auth` VALUES ('42D440160BF24960AA4E5EA52E4E3CAF', '角色管理', '0', '角色管理', 'system/jpSystemRole.do?list', '41CE12EFA6B04579BC0869B5B269874C', '51', '1', '0', '', null, '2017-08-08 12:03:41', null, null);
+INSERT INTO `jp_system_auth` VALUES ('4A44C125D07A462CB0388BADDC606431', '订单数据', '0', '', 'fresh/fDOrder.do?list', '288332478209416A9B0A51C98BAD5A61', '24', '4', '0', '', 'admin', '2019-03-29 17:24:51', null, null);
 INSERT INTO `jp_system_auth` VALUES ('860B92AD57C24D969B9841C6314C1B29', '菜单管理', '0', '菜单管理', 'system/jpSystemAuth.do?list', '41CE12EFA6B04579BC0869B5B269874C', '53', '3', '0', '', null, '2017-08-08 12:08:05', null, null);
 INSERT INTO `jp_system_auth` VALUES ('87CD38DC1AC44DD3BB8840232E348246', '用户管理', '0', '用户管理', 'system/jpSystemUser.do?list', '41CE12EFA6B04579BC0869B5B269874C', '52', '2', '0', '', null, '2017-08-08 12:07:14', null, null);
+INSERT INTO `jp_system_auth` VALUES ('8D7FC24017264B1092ED68BA9C944A93', '仓库数据', '0', '', 'fresh/fDStore.do?list', '288332478209416A9B0A51C98BAD5A61', '22', '2', '0', '', 'admin', '2019-03-29 17:23:25', null, null);
 INSERT INTO `jp_system_auth` VALUES ('BB96764937534DAB8B72387F6CFA8CD1', '运配管理', '0', '', 'fresh.do?distribution', 'F2B4E22492E645D78C8144778D260421', '3', '3', '0', '', 'admin', '2019-03-27 11:52:46', null, null);
 INSERT INTO `jp_system_auth` VALUES ('C065879AD1504B0EAB78C4AED042641E', '发货管理', '0', '', 'fresh.do?deliver', 'F2B4E22492E645D78C8144778D260421', '2', '2', '0', '', 'admin', '2019-03-27 11:52:27', null, null);
 INSERT INTO `jp_system_auth` VALUES ('DE2AFC09F12A4FC49DBE3BF724C8E2C8', '仓储管理', '0', 'cc', 'fresh.do?storage', 'F2B4E22492E645D78C8144778D260421', '1', '1', '0', '', 'admin', '2019-03-27 11:33:00', null, null);
@@ -5196,12 +5199,15 @@ CREATE TABLE `jp_system_role_auth_rel` (
 -- Records of jp_system_role_auth_rel
 -- ----------------------------
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '093A3F2C1DA14A9EAF4B4B89B76C1F99');
+INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '225AC0FB56634BBD89F978281ADD1C1D');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '288332478209416A9B0A51C98BAD5A61');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '3F0EB3F318D242878F492DD48F7E8966');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '41CE12EFA6B04579BC0869B5B269874C');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '42D440160BF24960AA4E5EA52E4E3CAF');
+INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '4A44C125D07A462CB0388BADDC606431');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '860B92AD57C24D969B9841C6314C1B29');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '87CD38DC1AC44DD3BB8840232E348246');
+INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', '8D7FC24017264B1092ED68BA9C944A93');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', 'BB96764937534DAB8B72387F6CFA8CD1');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', 'C065879AD1504B0EAB78C4AED042641E');
 INSERT INTO `jp_system_role_auth_rel` VALUES ('000111js', 'DE2AFC09F12A4FC49DBE3BF724C8E2C8');
