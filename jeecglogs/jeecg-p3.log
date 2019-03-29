@@ -7465,3 +7465,384 @@ java.io.FileNotFoundException: Template com/fresh/core/dao/FDQueryDao_getOrderCo
 	"staDate":"20171107",
 	"type":"中型"
 }
+[INFO][2019-03-29 15:27:13,043][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 15:27:15,612][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:27:15,613][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:27:15,613][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:27:15,613][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:28:45,192][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:28:57,058][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:28:57,766][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:29:07,927][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:30:36,537][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:30:51,407][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:30:59,597][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:06,912][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"tempMax":9,
+	"tempMin":1,
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:23,796][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:30,954][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:33,716][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:36,428][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:46,526][com.fresh.core.web.FDOrderController]{
+	"backtype":"质量问题",
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:49,017][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:52,958][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:31:57,834][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171107",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:49:37,355][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 15:49:41,618][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:49:41,619][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:49:41,619][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:49:41,619][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:50:23,549][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:50:25,858][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:50:38,027][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:51:46,525][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:51:46,525][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:51:46,525][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:51:46,525][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:51:49,025][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:51:49,025][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=水果]
+[INFO][2019-03-29 15:51:49,025][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:51:49,025][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:51:51,808][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:51:51,808][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:51:51,808][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:51:51,808][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:51:55,367][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201801, endDate=201812]
+[INFO][2019-03-29 15:51:55,368][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:51:55,368][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:51:55,368][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[WARN][2019-03-29 15:52:37,625][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-29 15:52:39,654][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[WARN][2019-03-29 15:52:39,804][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/jeecg-p3-starter-web/system/images/favicon.ico] in DispatcherServlet with name 'springmvc'
+[INFO][2019-03-29 15:52:42,625][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:52:57,963][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:00,291][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:03,121][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"transType":"空运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:06,973][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:10,335][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:12,247][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:15,981][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"transType":"陆运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:19,376][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"transType":"空运",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:22,089][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"海外",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:26,478][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"本市",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:30,754][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"orderType":"外市",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:34,194][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:37,137][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:45,040][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20180125",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:53:47,365][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:21,260][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:22,969][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:25,480][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"水果",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:28,648][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:31,773][com.fresh.core.web.FDOrderController]{
+	"backtype":"质量问题",
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:33,711][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"肉品",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:35,975][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:40,887][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181204",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20170329",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:49,321][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181204",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20180419",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:54:58,009][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181204",
+	"gtype":"干货",
+	"location":"青岛",
+	"staDate":"20181029",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:55:08,839][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:55:10,021][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:55:10,021][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:55:10,021][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:55:10,021][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:58:27,102][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[INFO][2019-03-29 15:58:27,103][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[INFO][2019-03-29 15:58:27,103][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[INFO][2019-03-29 15:58:27,103][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[INFO][2019-03-29 15:58:27,103][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemAuthDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemRoleDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.jeecg.system.dao.JpSystemUserDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDGoodsDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDOrderDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDQueryDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreDao }
+[INFO][2019-03-29 15:58:27,104][org.jeecgframework.minidao.aop.MiniDaoHandler]register minidao name is { com.fresh.core.dao.FDStoreItemsDao }
+[ERROR][2019-03-29 15:58:27,313][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2019-03-29 15:58:27,369][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2019-03-29 15:58:34,109][com.jeecg.base.BackController][0:0:0:0:0:0:0:1]  back home
+[INFO][2019-03-29 15:58:39,395][com.fresh.core.web.FDStoreItemsController]DateVo [staDate=201712, endDate=201812]
+[INFO][2019-03-29 15:58:39,395][com.fresh.core.web.FDStoreItemsController]FDGoodsEntity [id=null, gname=null, gtype=null]
+[INFO][2019-03-29 15:58:39,395][com.fresh.core.web.FDStoreItemsController]FDStoreEntity [id=null, location=青岛, name=null, type=中型]
+[INFO][2019-03-29 15:58:39,396][com.fresh.core.web.FDStoreItemsController]FDStoreItemsEntity [id=null, date=null, goodsid=null, storeid=null, count=null]
+[INFO][2019-03-29 15:58:40,527][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:58:42,258][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20171101",
+	"type":"中型"
+}
+[INFO][2019-03-29 15:58:44,353][com.fresh.core.web.FDOrderController]{
+	"endDate":"20181231",
+	"location":"青岛",
+	"staDate":"20181101",
+	"type":"中型"
+}
